@@ -1,0 +1,43 @@
+@use "./mixin" as *;
+
+@use "header";
+
+@use "main";
+
+@use "footer";
+
+@use "sp";
+
+*{
+  box-sizing: border-box;
+  vertical-align: baseline;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+}
+
+body{
+  background-color: #ec6c4e;
+  color: white;
+}
+
+img{
+  width: 100%;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+.container{
+  max-width: 1658px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
