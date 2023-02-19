@@ -554,6 +554,7 @@
 
 #news{
   padding-bottom: 150px;
+  margin: 0 35px;
 
   h3{
     padding-bottom: 50px;
@@ -565,6 +566,7 @@
   dl{
     display: flex;
     padding: 26px 0;
+    margin: 0 50px;
     border-top: 1px solid rgba(255, 255, 255, 0.35);
 
     &:nth-child(4){
@@ -585,3 +587,165 @@
 
 
 /* shop */
+
+#shop{
+  margin-bottom: 150px;
+
+  .shop-box{
+    display: flex;
+
+    .shop-left{
+      width: 80%;
+      height: 700px;
+      background-image: url("https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__shop-eyecatch.webp");
+      background-position: center;
+    }
+
+    .shop-right{
+      width: 400px;
+      height: 428px;
+      padding: 0 30px;
+      margin-top: 100px;
+      background-color: #ffff;
+      border-radius: 5px;
+      position: absolute;
+      right: 55px;
+
+      h3{
+        padding: 50px 0;
+        color: #ec6c4e;
+        font-size: 12px;
+        text-align: center;
+      }
+
+      h2{
+        margin-bottom: 30px;
+        font-family: "Noto Sans JP", "Noto Sans CJK JP", "Noto Sans Japanese", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W6", ヒラギノ角ゴシック, "Hiragino Sans", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+        color: rgb(236, 109, 78);
+        font-size: 22px;
+        font-weight: 700;
+      }
+
+      p{
+        color: #333;
+        font-size: 13px;
+      }
+
+      dl{
+        color: #333;
+        font-size: 13px;
+
+        dt{
+          padding: 19px 0;
+          font-weight: bold;
+        }
+      }
+
+      .shop-btn{
+        display: block;
+        width: 220px;
+        height: 52px;
+        margin-top: 30px;
+        margin-left: 60px;
+        background-color: #ec6c4e;
+        border-radius: 50px;
+        line-height: 50px;
+        text-align: center;
+      }
+    }
+  }
+}
+
+/* media */
+
+#media{
+  padding-bottom: 80px;
+  margin: 0 33px 150px 33px;
+  background-color: #fff;
+
+  h3{
+    padding: 80px 0 50px 0;
+    color: #ec6c4e;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  ul{
+    display: flex;
+    justify-content: center;
+
+    li{
+      width: 216px;
+    }
+  }
+}
+
+/* magazine */
+
+#magazine{
+  h2{
+    padding-bottom: 60px;
+    font-size: 40px;
+    letter-spacing: 5px;
+    text-align: center;
+  }
+
+  .magazine-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+
+    article{
+      width: 376px;
+      height: 390px;
+      padding: 20px;
+      background-color: #ffff;
+      position: relative;
+
+      img{
+        max-width: 336px;
+        height: 252px;
+      }
+
+      p{
+        padding: 15px 0 30px 0;
+        font-family: "Noto Sans JP", "Noto Sans CJK JP", "Noto Sans Japanese", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W6", ヒラギノ角ゴシック, "Hiragino Sans", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+        color: #333;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.2;
+      }
+
+      span{
+        opacity: 0.5;
+        font-family: "Inter", sans-serif;
+        color: black;
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 1;
+        position: absolute;
+        bottom: 20px;
+      }
+    }
+  }
+
+  .megazine-btn{
+    display: block;
+    width: 220px;
+    height: 52px;
+    margin: 35px auto 190px auto;
+    border: 2px solid #ffff;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 50px;
+    text-align: center;
+    transition: 0.6s;
+
+    &:hover{
+      background-color: #ffff;
+      color: #ec6c4e;
+    }
+  }
+}

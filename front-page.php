@@ -292,6 +292,87 @@
 
   </div>
 
+  <section id="shop">
+    <div class="shop-box">
+      <div class="shop-left">
+
+      </div>
+      <div class="shop-right">
+        <h3>Shop</h3>
+        <h2>FruOats FACTORY</h2>
+        <p>2022年4月25日(月)よりグランドオープン</p>
+        <dl>
+          <dt>営業時間</dt>
+          <dd>月~金（祝日除く） 11:00~17:00</dd>
+        </dl>
+        <dl>
+          <dt>店舗所在地</dt>
+          <dd>東京都江東区扇橋1丁目12-20</dd>
+        </dl>
+        <div class="shop-btn">
+          <a href="#">もっと詳しく</a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <div class="container">
+    <section id="media">
+      <h3>Media</h3>
+      <ul>
+        <li><a href="#"><img
+              src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.media__anan.webp?ver=20230127"
+              alt=""></a></li>
+        <li><a href="#"><img
+              src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.media__mina.webp?ver=20230127"
+              alt=""></a></li>
+        <li><a href="#"><img
+              src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.media__crea.webp?ver=20230127"
+              alt=""></a></li>
+      </ul>
+    </section>
+
+    <section id="magazine">
+      <h2>MAGAZINE</h2>
+
+      <div class="magazine-box">
+        <article>
+          <a href="">
+            <img src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/magazine01.webp?ver=20230127"
+              alt="">
+            <p>FruOatsのフレーバー別に合うコーヒーって？清澄白河カフェ「Kraft Coffee」のバリスタにインタビューしました！</p>
+            <span>2022.12.02</span>
+          </a>
+        </article>
+
+        <article>
+          <a href="">
+            <img src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/magazine02.webp?ver=20230127"
+              alt="">
+            <p>ヴィーガン食と腸活の関係って？</p>
+            <span>2022.10.13</span>
+          </a>
+        </article>
+
+        <article>
+          <a href="">
+            <img src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/magazine03.webp?ver=20230127"
+              alt="">
+            <p>ヴィーガンで栄養不足を防ぐには？不足しがちな栄養素とおすすめの食材</p>
+            <span>2022.09.19</span>
+          </a>
+        </article>
+      </div>
+
+      <div class="megazine-btn">
+        <a href="#">FruOats MAGAZINE</a>
+      </div>
+    </section>
+  </div>
+
+
+
 </main>
 
 <?php get_footer(); ?>
