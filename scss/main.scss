@@ -145,6 +145,7 @@
     position: relative;
     top: 200px;
     left: 50px;
+    z-index: 1;
     transform: translate3d(0px, 100px, );
 
 
@@ -161,6 +162,101 @@
       color: #ec6c4e;
       font-size: 14px;
       line-height: 2.2;
+    }
+  }
+}
+
+/* para */
+
+.para{
+  height: 750px;
+  margin-top: 60px;
+  background-image: url("https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__eyecatch.webp");
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+}
+
+.para-text{
+  padding-left: 10px;
+  margin-left: -10px;
+  overflow: hidden;
+  font-family: futura-pt, sans-serif;
+  color: #ffff;
+  font-size: 100px;
+  font-weight: 400;
+  font-style: normal;
+  position: relative;
+  bottom: 109px;
+  animation: loop-text 40s infinite linear;
+
+  white-space: nowrap;
+}
+
+@keyframes loop-text{
+  0%{
+    transform: translateX(0);
+  }
+
+  100%{
+    transform: translateX(-100%);
+  }
+}
+
+/* article box */
+
+.article-box{
+  margin-top: 50px;
+  margin-bottom: 150px;
+
+  h3{
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .article-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+
+
+    article{
+      max-width: 376px;
+      height: 569px;
+
+
+      span{
+        font-size: 70px;
+        position: relative;
+        top: 45px;
+        left: 20px;
+        z-index: 1;
+      }
+
+      .article-box1{
+        height: 296px;
+        background-color: white;
+        text-align: center;
+      }
+
+
+      h2{
+        padding-top: 30px;
+        color: #ec6d4e;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 1.6;
+        text-align: center;
+      }
+
+      p{
+        padding: 20px 30px 30px;
+        color: #333;
+        font-size: 14px;
+        line-height: 1.5;
+      }
     }
   }
 }
