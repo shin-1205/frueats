@@ -216,46 +216,60 @@
         </div>
 
         <div class="product-right">
-          <p>オートミール × おからの<br>
-            グルテンフリークッキー </p>
-          <h2>FruOats <span>フルオーツ</span></h2>
-          <dl>
-            <dt>¥2,960<span>税込</span></dt>
-            <dd>30枚入り</dd>
-          </dl>
+          <p class="product-text-top">オートミール × おからの<br>
+            グルテンフリークッキー </>
+          <div class="right-center">
+            <h2>FruOats </h2><span>フルオーツ</span>
+          </div>
+          <p class="product-right-price">¥2,960
+            <span>税込</span>
+            <span>30枚入り</span>
+          </p>
           <a href="#">商品詳細をみる</a>
         </div>
       </div>
 
-      <article>
-        <img src="" alt="">
-        <p></p>
-        <h4>¥2,960<span>税込</span></h4>
-      </article>
+      <div class="product-article">
+        <article>
+          <img
+            src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/ec_assets/08a4fe93bf2a1136a79b68af8d63acde3ac8f45d-large.jpg?1675331328"
+            alt="">
+          <p><a href="#">【在庫限り】ヴィーガンチョコレート 2種セット</a></p>
+          <h4>¥2,960<span>税込</span></h4>
+        </article>
 
-      <article>
-        <img src="" alt="">
-        <p></p>
-        <h4>¥2,960<span>税込</span></h4>
-      </article>
+        <article>
+          <img
+            src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/ec_assets/c626191e897d53e67675a2c17dcc2529d76af210-large.jpg?1671818423"
+            alt="">
+          <p><a href="#">オートミールクッキー『FruOats（フルオーツ）』6種セット 30枚入り</a></p>
+          <h4>¥2,960<span>税込</span></h4>
+        </article>
 
-      <article>
-        <img src="" alt="">
-        <p></p>
-        <h4>¥2,960<span>税込</span></h4>
-      </article>
+        <article>
+          <img
+            src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/ec_assets/59030b5489aa2f51e5a7e3a42c22c65e97c65aed-large.jpg?1671818533"
+            alt="">
+          <p><a href="#">オートミールクッキー『FruOats（フルオーツ）』プレーン 30枚入り</a></p>
+          <h4>¥2,960<span>税込</span></h4>
+        </article>
 
-      <article>
-        <img src="" alt="">
-        <p></p>
-        <h4>¥2,960<span>税込</span></h4>
-      </article>
+        <article>
+          <img
+            src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/ec_assets/8045b472962647edec1bb2eef749b85c64c70ecd-large.jpg?1671818619"
+            alt="">
+          <p><a href="#">オートミールクッキー『FruOats（フルオーツ）』トマトバジル 30枚入り【1日50限定】</a></p>
+          <h4>¥2,960<span>税込</span></h4>
+        </article>
+      </div>
 
       <div class="product-btn">
         <a href="">Product All</a>
       </div>
     </section>
 
+
+    <section class="news"></section>
 
 
   </div>
