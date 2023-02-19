@@ -21,16 +21,41 @@
           <div><img
               src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__slide_2.webp?ver=20230127"
               alt=""></div>
-
-        </div>
-
-        <div class="xslider2">
-
+          <div><img
+              src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__slide_3.webp?ver=20230127"
+              alt=""></div>
           <div><img
               src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__slide_4.webp?ver=20230127"
               alt=""></div>
           <div><img
               src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__slide_5.webp?ver=20230127"
+              alt=""></div>
+          <div><img
+              src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__slide_3.webp?ver=20230127"
+              alt=""></div>
+
+        </div>
+
+        <div class="xslider2">
+
+
+          <div><img
+              src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__slide_1.webp?ver=20230127"
+              alt=""></div>
+          <div><img
+              src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__slide_2.webp?ver=20230127"
+              alt=""></div>
+          <div><img
+              src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__slide_3.webp?ver=20230127"
+              alt=""></div>
+          <div><img
+              src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__slide_4.webp?ver=20230127"
+              alt=""></div>
+          <div><img
+              src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__slide_5.webp?ver=20230127"
+              alt=""></div>
+          <div><img
+              src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__slide_3.webp?ver=20230127"
               alt=""></div>
 
         </div>
@@ -54,7 +79,36 @@
         alt="">
     </div>
 
-    <section></section>
+    <section class="about">
+      <h3>About FruOats</h3>
+
+      <div class="about-left">
+        <h2>我慢しなくていい<br>
+          キレイのためのおやつ</h2>
+
+        <p>健康や美容への意識が高まるなか、<br>
+          なるべくヘルシーなおやつを選んだり、<br>
+          おやつを我慢する人が増えています。<br>
+          <br>
+          私たちは、どなたでもおやつ時間を<br>
+          罪悪感なく楽しく過ごしていただけるよう、<br>
+          植物由来のシンプルな素材のみを厳選して<br>
+          FruOats（フルオーツ）を開発しました。<br>
+          <br>
+          スーパーフードとして注目されているオートミールや<br>
+          チアシードのほか、おからやドライフルーツなどを使った、<br>
+          食物繊維・ビタミン・ミネラルたっぷりの<br>
+          グルテンフリークッキーです。<br>
+          <br>
+          おいしさとキレイを両立させる、<br>
+          嬉しいおやつをどうぞ召し上がれ。
+        </p>
+      </div>
+    </section>
+
+    <div class="para">
+
+    </div>
 
   </div>
 </main>

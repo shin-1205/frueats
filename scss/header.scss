@@ -2,7 +2,11 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 28px 0;
+  width: 100%;
+  padding: 28px 20px;
+  background-color: #ec6c4e;
+  position: fixed;
+  z-index: 5;
 
   nav ul{
     display: flex;

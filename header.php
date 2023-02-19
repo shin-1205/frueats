@@ -13,33 +13,31 @@
 
 <body>
 
-  <div class="container">
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#">Top</a></li>
-          <li><a href="#">開発ストーリー</a></li>
-          <li><a href="#">商品一覧</a></li>
-          <li><a href="#">ニュース</a></li>
-          <li><a href="#">店舗情報</a></li>
-          <li><a href="#">Magazine</a></li>
-        </ul>
-      </nav>
 
-      <div id="logo">
-        <a href="#">
-          <img src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.shared__logo_wh.svg"
-            alt="">
-        </a>
-      </div>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Top</a></li>
+        <li><a href="#">開発ストーリー</a></li>
+        <li><a href="#">商品一覧</a></li>
+        <li><a href="#">ニュース</a></li>
+        <li><a href="#">店舗情報</a></li>
+        <li><a href="#">Magazine</a></li>
+      </ul>
+    </nav>
 
-      <div class="head-right">
-        <ul>
-          <li><a href="#">Login</a></li>
-          <li class="head-mark"><a href="#"><img
-                src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.shared__icon-cart_or.svg"
-                alt=""></a></li>
-        </ul>
-      </div>
-    </header>
-  </div>
+    <div id="logo">
+      <a href="#">
+        <img src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.shared__logo_wh.svg" alt="">
+      </a>
+    </div>
+
+    <div class="head-right">
+      <ul>
+        <li><a href="#">Login</a></li>
+        <li class="head-mark"><a href="#"><img
+              src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.shared__icon-cart_or.svg"
+              alt=""></a></li>
+      </ul>
+    </div>
+  </header>
