@@ -207,8 +207,8 @@
 /* article box */
 
 .article-box{
+  padding-bottom: 200px;
   margin-top: 50px;
-  margin-bottom: 150px;
 
   h3{
     font-size: 12px;
@@ -259,4 +259,115 @@
       }
     }
   }
+}
+
+/* story */
+
+.story{
+  height: 754px;
+  margin-top: 50px;
+  background-image: url("https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__story-eyecatch-bg.webp");
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+
+  h3{
+    padding-top: 50px;
+    padding-bottom: 80px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .story-box{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+
+    .story-left{
+      width: 545px;
+
+      h2{
+        padding-top: 91px;
+        margin-bottom: 30px;
+        font-family: "Noto Sans JP", "Noto Sans CJK JP", "Noto Sans Japanese", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W6", "ヒラギノ角ゴシック", "Hiragino Sans", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+        color: #fff;
+        font-size: 30px;
+        font-weight: 700;
+      }
+
+      p{
+        width: 350px;
+        padding-bottom: 30px;
+        font-size: 14px;
+        line-height: 2;
+      }
+
+      a{
+        display: block;
+        width: 250px;
+        height: 52px;
+        background-color: white;
+        border-radius: 50px;
+        color: #ec6c4e;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 50px;
+        text-align: center;
+      }
+    }
+
+    img{
+      max-width: 545px;
+      border-radius: 5px;
+    }
+  }
+}
+
+.story-wrapper{
+  height: 200px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  bottom: 185px;
+}
+
+.marquee-anim{
+  transition: all 0.3s;
+}
+
+.marquee-anim{
+  display: flex;
+  margin-top: -8vh;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(50%, 0%);
+  animation: marquee 80s linear infinite;
+
+  white-space: nowrap;
+}
+
+@keyframes marquee{
+  0%{
+    transform: translate(-40%, 0%);
+  }
+
+  100%{
+    transform: translate(100%, 0%);
+  }
+}
+
+.marquee-inline{
+  display: block;
+  padding-right: 0.5em;
+  color: #fff;
+  font-size: 70px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-align: center;
+
+  white-space: nowrap;
 }

@@ -169,13 +169,96 @@
       </div>
     </section>
 
-    <section class="story">
-
-
-    </section>
-
   </div>
 
+  <section class="story">
+
+    <h3>
+      Story / Promise</h3>
+
+    <div class="story-box">
+      <div class="story-left">
+        <h2>おいしさとキレイの<br>
+          両立を目指して</h2>
+        <p>「おやつを我慢したくない」をきっかけにスタートしたFruOats(フルオーツ)の開発。ヘルシーと美味しさを両立させるために、通常使用される素材を使わずに、何十回もの試行錯誤を重ねました。</p>
+        <a href="#">誕生ストーリーをみる</a>
+      </div>
+
+      <img src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/story-main2.webp?ver=20230127"
+        alt="">
+    </div>
+
+    <div class="story-wrapper">
+      <div class="marquee-anim">
+        <div class="marquee-inline">
+          Story. Promise. Story. Promise. Story. Promise. Story. Promise. Story. Promise. Story. Promise.
+        </div>
+      </div><!-- marquee-anim -->
+    </div>
+
+    </div>
+  </section>
+
+  <div class="container">
+    <section class="product">
+      <h3>Product</h3>
+      <div class="product-box-top">
+        <div class="product-left">
+          <img
+            src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__product-deco_2_600x.webp"
+            alt="">
+          <img
+            src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__product-deco_1_600x.webp"
+            alt="">
+          <img
+            src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__product_600x.webp?ver=20230127"
+            alt="">
+        </div>
+
+        <div class="product-right">
+          <p>オートミール × おからの<br>
+            グルテンフリークッキー </p>
+          <h2>FruOats <span>フルオーツ</span></h2>
+          <dl>
+            <dt>¥2,960<span>税込</span></dt>
+            <dd>30枚入り</dd>
+          </dl>
+          <a href="#">商品詳細をみる</a>
+        </div>
+      </div>
+
+      <article>
+        <img src="" alt="">
+        <p></p>
+        <h4>¥2,960<span>税込</span></h4>
+      </article>
+
+      <article>
+        <img src="" alt="">
+        <p></p>
+        <h4>¥2,960<span>税込</span></h4>
+      </article>
+
+      <article>
+        <img src="" alt="">
+        <p></p>
+        <h4>¥2,960<span>税込</span></h4>
+      </article>
+
+      <article>
+        <img src="" alt="">
+        <p></p>
+        <h4>¥2,960<span>税込</span></h4>
+      </article>
+
+      <div class="product-btn">
+        <a href="">Product All</a>
+      </div>
+    </section>
+
+
+
+  </div>
 
 </main>
 
