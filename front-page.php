@@ -269,7 +269,25 @@
     </section>
 
 
-    <section class="news"></section>
+    <section id="news">
+      <h3>News</h3>
+      <dl>
+        <dt>2023.02.06</dt>
+        <dd>【2/6(月)より数量限定】「FruOats（フルオーツ）」より『ヴィーガンチョコレート』の販売を開始！</dd>
+      </dl>
+      <dl>
+        <dt>2023.01.02</dt>
+        <dd>【会員さま、定期購入ご契約者さまへ】パスワード再設定&定期購入再開方法のご案内</dd>
+      </dl>
+      <dl>
+        <dt>2022.12.19</dt>
+        <dd>【重要】システムメンテナンスによるサービス一時停止のお知らせ ＜停止期間：2022年12月28日~2023年1月2日＞</dd>
+      </dl>
+
+      <div class="product-btn">
+        <a href="">News All</a>
+      </div>
+    </section>
 
 
   </div>
