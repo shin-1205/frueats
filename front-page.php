@@ -6,8 +6,9 @@
     <section class="hero-area">
 
       <div class="hero-left">
-        <img src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__message.svg" alt="">
-        <span>Vegan Friday</span>
+        <img src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__message.svg" alt=""
+          class="item2">
+        <span class="item3">Vegan Friendly</span>
       </div>
 
 
@@ -64,7 +65,7 @@
     </section>
 
     <div class="hero-center">
-      <div class="center-img">
+      <div class="center-img item">
         <img src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.shared__logo_wh.svg" alt="">
         <img src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__tagline.svg" alt="">
       </div>
@@ -82,7 +83,7 @@
     <section class="about">
       <h3>About FruOats</h3>
 
-      <div class="about-left">
+      <div class="about-left js-parallax">
         <h2>我慢しなくていい<br>
           キレイのためのおやつ</h2>
 
@@ -108,9 +109,9 @@
   </div>
 
   <div class="para">
-
+    <div class="para-img js-parallax"></div>
   </div>
-  <p class="para-text">
+  <p class="para-text js-parallax">
     Strawberry.Pistachio. Mango. Coconut. Apple. Cinnamon. Fig. Almond. Orange. Chocolate.
   </p>
 
@@ -122,7 +123,7 @@
 
       <div class="article-wrapper">
 
-        <article>
+        <article class="article">
           <span>1</span>
 
           <img

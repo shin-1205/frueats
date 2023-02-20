@@ -1,0 +1,150 @@
+/* hero center logo */
+
+
+
+@mixin animationValue($name, $duration , $function, $delay, $count, $state){
+  animation: $name $duration+s $function $delay+s $count $state;
+
+  -webkit-animation: $name $duration+s $function $delay+s $count $state;
+}
+
+@for $cnt from 1 through 6{
+  .item:nth-child(#{$cnt}){
+    @include animationValue(example, 2, ease, $cnt * 0.5, 1, forwards);
+  }
+}
+
+@mixin keyframes($name){
+  @-webkit-keyframes #{$name}{
+    @content;
+  }
+
+  @keyframes #{$name}{
+    @content;
+  }
+}
+
+.item{
+  opacity: 0;
+}
+
+@include keyframes(example){
+  100%{
+    opacity: 1;
+  }
+}
+
+
+/* hero left */
+
+.item2{
+  opacity: 0;
+}
+
+
+.item2{
+  @include animationValue(example, 2, ease, 2, 1, forwards);
+}
+
+
+
+.item3{
+  opacity: 0;
+  transform: translateY(50%);
+}
+
+
+.item2{
+  opacity: 0;
+}
+
+
+.item3{
+  @include animationValue(example4, 1.5, ease, 2.2, 1, forwards);
+  @include keyframes(example4){
+    100%{
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+
+/* hero right */
+
+.xslider_wrap{
+  opacity: 0;
+}
+
+
+.xslider_wrap{
+  @include animationValue(example, 2, ease, 1.5, 1, forwards);
+}
+
+
+
+
+.p-index-float{
+  transform: translateY(200%);
+}
+
+
+.p-index-float{
+  @include animationValue(example, 1.5, ease, 3.5, 1, forwards);
+  @include keyframes(example){
+    100%{
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+
+
+
+.right-circle{
+  animation: rotate-anime 30s linear infinite;
+}
+
+
+
+@keyframes rotate-anime{
+  0%{
+    transform: rotate(0);
+  }
+
+  100%{
+    transform: rotate(-360deg);
+  }
+}
+
+
+@keyframes right-circle{
+  0%{
+    opacity: 0;
+  }
+
+  100%{
+    opacity: 1;
+  }
+}
+
+
+
+/* about */
+
+.about{
+  opacity: 0;
+  transform: translateY(10%);
+}
+
+
+.about{
+  @include animationValue(example2, 2, ease, 2.6, 1, forwards);
+  @include keyframes(example2){
+    100%{
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
