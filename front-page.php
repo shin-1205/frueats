@@ -1,84 +1,87 @@
 <?php get_header(); ?>
 
 <main>
+
+
+  <section class="hero-area">
+
+    <div class="hero-left">
+      <img src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__message.svg" alt=""
+        class="item2">
+      <span class="item3">Vegan Friendly</span>
+    </div>
+
+
+    <div class="xslider_wrap" ontouchstart="">
+
+      <div class="xslider1">
+
+        <div><img
+            src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__slide_1.webp?ver=20230127"
+            alt=""></div>
+        <div><img
+            src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__slide_2.webp?ver=20230127"
+            alt=""></div>
+        <div><img
+            src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__slide_3.webp?ver=20230127"
+            alt=""></div>
+        <div><img
+            src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__slide_4.webp?ver=20230127"
+            alt=""></div>
+        <div><img
+            src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__slide_5.webp?ver=20230127"
+            alt=""></div>
+        <div><img
+            src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__slide_3.webp?ver=20230127"
+            alt=""></div>
+
+      </div>
+
+      <div class="xslider2">
+
+
+        <div><img
+            src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__slide_1.webp?ver=20230127"
+            alt=""></div>
+        <div><img
+            src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__slide_2.webp?ver=20230127"
+            alt=""></div>
+        <div><img
+            src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__slide_3.webp?ver=20230127"
+            alt=""></div>
+        <div><img
+            src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__slide_4.webp?ver=20230127"
+            alt=""></div>
+        <div><img
+            src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__slide_5.webp?ver=20230127"
+            alt=""></div>
+        <div><img
+            src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__slide_3.webp?ver=20230127"
+            alt=""></div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <div class="hero-center">
+    <div class="center-img item">
+      <img src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.shared__logo_wh.svg" alt="">
+      <img src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__tagline.svg" alt="">
+    </div>
+  </div>
+
+  <div class="right-circle">
+    <img src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__scroll.svg" alt="">
+  </div>
+
+  <div class="p-index-float"><a href="">
+      <img src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/banner_1_400x.webp?ver=20230127"
+        alt=""></a>
+  </div>
+
+
   <div class="container">
-
-    <section class="hero-area">
-
-      <div class="hero-left">
-        <img src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__message.svg" alt=""
-          class="item2">
-        <span class="item3">Vegan Friendly</span>
-      </div>
-
-
-      <div class="xslider_wrap" ontouchstart="">
-
-        <div class="xslider1">
-
-          <div><img
-              src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__slide_1.webp?ver=20230127"
-              alt=""></div>
-          <div><img
-              src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__slide_2.webp?ver=20230127"
-              alt=""></div>
-          <div><img
-              src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__slide_3.webp?ver=20230127"
-              alt=""></div>
-          <div><img
-              src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__slide_4.webp?ver=20230127"
-              alt=""></div>
-          <div><img
-              src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__slide_5.webp?ver=20230127"
-              alt=""></div>
-          <div><img
-              src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__slide_3.webp?ver=20230127"
-              alt=""></div>
-
-        </div>
-
-        <div class="xslider2">
-
-
-          <div><img
-              src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__slide_1.webp?ver=20230127"
-              alt=""></div>
-          <div><img
-              src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__slide_2.webp?ver=20230127"
-              alt=""></div>
-          <div><img
-              src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__slide_3.webp?ver=20230127"
-              alt=""></div>
-          <div><img
-              src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__slide_4.webp?ver=20230127"
-              alt=""></div>
-          <div><img
-              src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__slide_5.webp?ver=20230127"
-              alt=""></div>
-          <div><img
-              src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__slide_3.webp?ver=20230127"
-              alt=""></div>
-
-        </div>
-      </div>
-
-    </section>
-
-    <div class="hero-center">
-      <div class="center-img item">
-        <img src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.shared__logo_wh.svg" alt="">
-        <img src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__tagline.svg" alt="">
-      </div>
-    </div>
-
-    <div class="right-circle">
-      <img src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__scroll.svg" alt="">
-    </div>
-
-    <div class="p-index-float"><a href="">
-        <img src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/banner_1_400x.webp?ver=20230127"
-          alt=""></a>
-    </div>
 
     <section class="about">
       <h3>About FruOats</h3>
@@ -119,7 +122,7 @@
 
 
     <section class="article-box">
-      <h3 class="article-logo">FruOats’s Feature</h3>
+      <h3 class="sec-logo">FruOats’s Feature</h3>
 
       <div class="article-wrapper">
 
@@ -174,7 +177,7 @@
 
   <section class="story">
 
-    <h3 class="article-logo">
+    <h3 class="sec-logo">
       Story / Promise</h3>
 
     <div class="story-box">
@@ -202,7 +205,7 @@
 
   <div class="container">
     <section class="product">
-      <h3>Product</h3>
+      <h3 class="sec-logo">Product</h3>
       <div class="product-box-top">
         <div class="product-left">
           <img

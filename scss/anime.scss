@@ -99,14 +99,25 @@
   }
 }
 
-
-
+.right-circle{
+  opacity: 0;
+  transform: translateY(10%);
+}
 
 .right-circle{
-  animation: rotate-anime 30s linear infinite;
+  @include animationValue(circlefade, 1.5, ease, 2.2, 1, forwards);
+  @include keyframes(circlefade){
+    100%{
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
 }
 
 
+.right-circle img{
+  animation: rotate-anime 30s linear infinite;
+}
 
 @keyframes rotate-anime{
   0%{
@@ -249,7 +260,7 @@
 }
 
 
-.article-logo{
+.sec-logo{
   opacity: 0;
   transform: rotate(30deg) translateY(150%);
 
@@ -257,7 +268,7 @@
 }
 
 
-.article-logo{
+.sec-logo{
   @include animationValue(logo1, 1, ease, 1, 1, forwards);
   @include keyframes(logo1){
     100%{
@@ -306,3 +317,108 @@
 
 
 /* Product */
+
+
+.product-left{
+  width: 428px;
+  position: relative;
+  right: 70px;
+
+  img{
+    &:nth-child(1){
+      opacity: 0;
+      position: absolute;
+      top: 1px;
+      transform: translateY(0) rotate(0);
+
+      &{
+        @include animationValue(product1, 2, cubic-bezier(0.22, 1, 0.36, 1), 0.5, 1, forwards);
+        @include keyframes(product1){
+          100%{
+            opacity: 1;
+            transform: translateX(30px) rotate(20deg);
+          }
+        }
+      }
+    }
+
+    &:nth-child(2){
+      opacity: 0;
+      position: absolute;
+      top: 1px;
+      transform: translateX(0) rotate(0);
+
+      &{
+        @include animationValue(product2, 2, cubic-bezier(0.22, 1, 0.36, 1), 0.5, 1, forwards);
+        @include keyframes(product2){
+          100%{
+            opacity: 1;
+            transform: translateX(-50px) rotate(-20deg);
+          }
+        }
+      }
+    }
+
+    &:nth-child(3){
+      opacity: 0;
+      position: absolute;
+      top: 1px;
+      transform: translateY(10%);
+
+      &{
+        @include animationValue(product3, 1, cubic-bezier(0.22, 1, 0.36, 1), 0.5, 1, forwards);
+        @include keyframes(product3){
+          100%{
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+      }
+    }
+  }
+}
+
+.product-right{
+  opacity: 0;
+  transform: translateY(50%);
+}
+
+
+.product-right{
+  @include animationValue(productright1, 2, cubic-bezier(0.22, 1, 0.36, 1), 1, 1, forwards);
+  @include keyframes(productright1){
+    100%{
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+
+.product-article{
+  article{
+    cursor: pointer;
+  }
+
+  article img{
+    border-radius: 5px;
+    overflow: hidden;
+    transition: all 0.6s;
+  }
+
+  article img:hover{
+    transform: translateY(-3%);
+  }
+
+
+
+  &{
+    @include animationValue(productright1, 2, cubic-bezier(0.22, 1, 0.36, 1), 1, 1, forwards);
+    @include keyframes(productright1){
+      100%{
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  }
+}
