@@ -17,11 +17,3 @@ gsap.utils.toArray('.js-parallax').forEach(wrap => {
   })
 });
 
-
-/* about */
-
-// gsap.fromTo(
-//   ".article",
-//   { y: 0, x: '100%' },
-//   { y: -60, x: '100%', duration: 0.4 },
-// );

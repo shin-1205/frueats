@@ -119,12 +119,12 @@
 
 
     <section class="article-box">
-      <h3>About FruOats</h3>
+      <h3 class="article-logo">FruOats’s Feature</h3>
 
       <div class="article-wrapper">
 
         <article class="article">
-          <span>1</span>
+          <span class="article-span">1</span>
 
           <img
             src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__feature_1.webp?ver=20230127"
@@ -138,8 +138,8 @@
           </div>
         </article>
 
-        <article>
-          <span>2</span>
+        <article class="article2">
+          <span class="article-span2">2</span>
 
           <img
             src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__feature_2.webp?ver=20230127"
@@ -153,8 +153,8 @@
           </div>
         </article>
 
-        <article>
-          <span>3</span>
+        <article class="article3">
+          <span class="article-span3">3</span>
 
           <img
             src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__feature_3.webp?ver=20230127"
@@ -174,7 +174,7 @@
 
   <section class="story">
 
-    <h3>
+    <h3 class="article-logo">
       Story / Promise</h3>
 
     <div class="story-box">
@@ -185,8 +185,8 @@
         <a href="#">誕生ストーリーをみる</a>
       </div>
 
-      <img src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/story-main2.webp?ver=20230127"
-        alt="">
+      <img src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/story-main2.webp?ver=20230127" alt=""
+        class="story-right">
     </div>
 
     <div class="story-wrapper">

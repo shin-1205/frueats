@@ -90,8 +90,8 @@
 
 
 .p-index-float{
-  @include animationValue(example, 1.5, ease, 3.5, 1, forwards);
-  @include keyframes(example){
+  @include animationValue(example8, 1.5, ease, 3.5, 1, forwards);
+  @include keyframes(example8){
     100%{
       opacity: 1;
       transform: translateY(0);
@@ -148,3 +148,161 @@
     }
   }
 }
+
+
+/* article */
+
+.article{
+  opacity: 0;
+  transform: translateY(100px);
+}
+
+.article2{
+  opacity: 0;
+  transform: translateY(100px);
+}
+
+.article3{
+  opacity: 0;
+  transform: translateY(100px);
+}
+
+
+.article{
+  @include animationValue(article1, 1, cubic-bezier(0.41, 1.69, 0.64, 1), 0.5, 1, forwards);
+  @include keyframes(article1){
+    100%{
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+.article2{
+  @include animationValue(article5, 1.5, cubic-bezier(0.41, 1.69, 0.64, 1), 0.6, 1, forwards);
+  @include keyframes(article5){
+    100%{
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+.article3{
+  @include animationValue(article6, 2, cubic-bezier(0.41, 1.69, 0.64, 1), 0.7, 1, forwards);
+  @include keyframes(article6){
+    100%{
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+
+.article-span{
+  display: inline-block;
+  opacity: 0;
+  transform: translateX(30px);
+}
+
+.article-span2{
+  display: inline-block;
+  opacity: 0;
+  transform: translateX(30px);
+}
+
+.article-span3{
+  display: inline-block;
+  opacity: 0;
+  transform: translateX(30px);
+}
+
+
+.article-span{
+  @include animationValue(article2, 1, ease, 0.5, 1, forwards);
+  @include keyframes(article2){
+    100%{
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+}
+
+.article-span2{
+  @include animationValue(article3, 1, ease, 0.6, 1, forwards);
+  @include keyframes(article3){
+    100%{
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+}
+
+.article-span3{
+  @include animationValue(article4, 1, ease, 0.7, 1, forwards);
+  @include keyframes(article4){
+    100%{
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+}
+
+
+.article-logo{
+  opacity: 0;
+  transform: rotate(30deg) translateY(150%);
+
+  transform-origin: left bottom;
+}
+
+
+.article-logo{
+  @include animationValue(logo1, 1, ease, 1, 1, forwards);
+  @include keyframes(logo1){
+    100%{
+      opacity: 1;
+      transition: transform 0.8s;
+      transform: rotate(0) translateY(0);
+    }
+  }
+}
+
+
+/* story */
+
+
+.story-left{
+  opacity: 0;
+  transform: translateY(80px);
+}
+
+
+.story-left{
+  @include animationValue(story1, 3, cubic-bezier(0.22, 1, 0.36, 1), 1, 1, forwards);
+  @include keyframes(story1){
+    100%{
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+.story-right{
+  opacity: 0;
+  transform: translateY(80px);
+}
+
+
+.story-right{
+  @include animationValue(story1, 3.2, cubic-bezier(0.22, 1, 0.36, 1), 0.3, 1, forwards);
+  @include keyframes(story1){
+    100%{
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+
+/* Product */
