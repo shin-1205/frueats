@@ -356,8 +356,10 @@
           <a href="">
             <img src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/magazine01.webp?ver=20230127"
               alt="">
-            <p>FruOatsのフレーバー別に合うコーヒーって？清澄白河カフェ「Kraft Coffee」のバリスタにインタビューしました！</p>
-            <span>2022.12.02</span>
+            <div class="magazine-bottom">
+              <p>FruOatsのフレーバー別に合うコーヒーって？清澄白河カフェ「Kraft Coffee」のバリスタにインタビューしました！</p>
+              <span>2022.12.02</span>
+            </div>
           </a>
         </article>
 
@@ -365,8 +367,10 @@
           <a href="">
             <img src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/magazine02.webp?ver=20230127"
               alt="">
-            <p>ヴィーガン食と腸活の関係って？</p>
-            <span>2022.10.13</span>
+            <div class="magazine-bottom">
+              <p>ヴィーガン食と腸活の関係って？</p>
+              <span>2022.10.13</span>
+            </div>
           </a>
         </article>
 
@@ -374,8 +378,10 @@
           <a href="">
             <img src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/magazine03.webp?ver=20230127"
               alt="">
-            <p>ヴィーガンで栄養不足を防ぐには？不足しがちな栄養素とおすすめの食材</p>
-            <span>2022.09.19</span>
+            <div class="magazine-bottom">
+              <p>ヴィーガンで栄養不足を防ぐには？不足しがちな栄養素とおすすめの食材</p>
+              <span>2022.09.19</span>
+            </div>
           </a>
         </article>
       </div>

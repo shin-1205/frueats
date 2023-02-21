@@ -15,7 +15,7 @@
 
 
   <header>
-    <nav>
+    <nav class="head-nav">
       <ul>
         <li><a href="#">
             <div class="navi-mask">
