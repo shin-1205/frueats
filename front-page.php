@@ -312,7 +312,7 @@
       <div class="shop-left">
 
       </div>
-      <div class="shop-right">
+      <div class="shop-right shopMove">
         <h3>Shop</h3>
         <h2>FruOats FACTORY</h2>
         <p>2022年4月25日(月)よりグランドオープン</p>
@@ -333,7 +333,7 @@
   </section>
 
   <div class="container">
-    <section id="media">
+    <section id="media" class="mediaMove">
       <h3>Media</h3>
       <ul>
         <li><a href="#"><img
@@ -348,7 +348,7 @@
       </ul>
     </section>
 
-    <section id="magazine">
+    <section id="magazine" class="mediaMove">
       <h2>MAGAZINE</h2>
 
       <div class="magazine-box">

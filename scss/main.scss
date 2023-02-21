@@ -686,6 +686,16 @@ dt{
     gap: 6px;
 
     article{
+      cursor: pointer;
+      overflow: hidden;
+      transition: all 0.6s;
+    }
+
+    article:hover{
+      transform: translateY(-3%);
+    }
+
+    article{
       width: 376px;
       height: 390px;
       padding: 20px;
