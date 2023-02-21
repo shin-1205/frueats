@@ -367,38 +367,6 @@ $(window).on('load', function () {
 
 
 
-
-function productAnime5() {
-
-  //動きの指定
-  $('.product-article').each(function () {
-    var elemPos = $(this).offset().top - 50;
-    var scroll = $(window).scrollTop();
-    var windowHeight = $(window).height();
-    if (scroll >= elemPos - windowHeight) {
-      $(this).addClass('productMove2');
-    } else {
-      $(this).removeClass('productMove2');
-    }
-  });
-
-}
-
-// 画面をスクロールをしたら動く場合の記述
-$(window).scroll(function () {
-
-  productAnime5();
-
-});
-
-$(window).on('load', function () {
-
-  productAnime5();
-
-});
-
-
-
 function productAnime5() {
 
   //動きの指定
@@ -428,14 +396,14 @@ $(window).on('load', function () {
 
 });
 
-/* News */
 
+/* News */
 
 
 function newsAnime1() {
 
   //動きの指定
-  $('#news').each(function () {
+  $('#news,.product-article').each(function () {
     var elemPos = $(this).offset().top - 50;
     var scroll = $(window).scrollTop();
     var windowHeight = $(window).height();
@@ -462,5 +430,39 @@ $(window).on('load', function () {
 });
 
 
+
+/* media */
+
+
+
+
+function mediaMoveAnime1() {
+
+  //動きの指定
+  $('#media,#magazine').each(function () {
+    var elemPos = $(this).offset().top - 50;
+    var scroll = $(window).scrollTop();
+    var windowHeight = $(window).height();
+    if (scroll >= elemPos - windowHeight) {
+      $(this).addClass('mediaMove');
+    } else {
+      $(this).removeClass('mediaMove');
+    }
+  });
+
+}
+
+// 画面をスクロールをしたら動く場合の記述
+$(window).scroll(function () {
+
+  mediaMoveAnime1();
+
+});
+
+$(window).on('load', function () {
+
+  mediaMoveAnime1();
+
+});
 
 

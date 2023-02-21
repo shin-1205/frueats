@@ -12,7 +12,74 @@ header{
     display: flex;
 
     li{
-      padding-left: 15px;
+      overflow: hidden;
+    }
+
+    a{
+      display: inline-flex;
+      align-items: center;
+      font-family: "Inter", sans-serif;
+      color: #fff;
+      font-size: 15px;
+      font-weight: 600;
+
+      &:hover{
+        transition: 0.2s;
+        transform: translateY(-18px);
+
+        p::after{
+          content: attr(data-text);
+          display: block;
+          position: absolute;
+          top: 100%;
+          left: 0;
+          transform: translateY(0);
+        }
+      }
+    }
+
+    .navi-mask p{
+      position: relative;
+    }
+
+    p::after{
+      content: attr(data-text);
+      display: block;
+      font-size: 15px;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      transform: matrix(1, -0.7, 0, 1, 0, 40);
+    }
+
+    li{
+      padding: 2px 0 2px 15px;
+    }
+  }
+
+
+  /* sec-logo */
+
+  .head-logo{
+    opacity: 0;
+
+    animation-duration: 1.3s;
+    animation-fill-mode: forwards;
+    animation-name: logoMove1;
+  }
+
+  @keyframes logoMove1{
+    from{
+      opacity: 0;
+      transform: rotate(30deg) translateY(150%);
+
+      transform-origin: left bottom;
+    }
+
+    to{
+      opacity: 1;
+      transition: transform 0.8s;
+      transform: rotate(0) translateY(0);
     }
   }
 

@@ -239,7 +239,7 @@
         </div>
       </div>
 
-      <div class="product-article productMove2">
+      <div class="product-article newsMove1">
         <article>
           <img
             src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/ec_assets/08a4fe93bf2a1136a79b68af8d63acde3ac8f45d-large.jpg?1675331328"
