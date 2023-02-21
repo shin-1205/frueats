@@ -8,29 +8,14 @@ footer{
       display: flex;
 
       li{
-        padding: 0 17px;
-        border-right: 1px solid rgba(255, 255, 255, 0.3);
+        padding: 10px 0 10px 17px;
         font-size: 15px;
         line-height: 1;
 
-        &:hover{
-          transform: translateY(1px);
-        }
-
-        &:last-child{
-          border-right: none;
-        }
-
-
-
-
 
         a{
-          transition: 0.3;
-
-          &:hover{
-            border-bottom: 1px solid #ffff;
-          }
+          padding-right: 17px;
+          border-right: 1px solid rgba(255, 255, 255, 0.3);
         }
       }
     }
@@ -76,10 +61,6 @@ footer{
         width: 40px;
         height: 40px;
         margin-left: 10px;
-
-        &:hover{
-          transform: scale(0.8);
-        }
       }
     }
   }

@@ -428,8 +428,8 @@ $(window).on('load', function () {
 
 });
 
-
 /* News */
+
 
 
 function newsAnime1() {
@@ -463,37 +463,4 @@ $(window).on('load', function () {
 
 
 
-/* media */
-
-
-
-
-function mediaMoveAnime1() {
-
-  //動きの指定
-  $('#media,#magazine').each(function () {
-    var elemPos = $(this).offset().top - 50;
-    var scroll = $(window).scrollTop();
-    var windowHeight = $(window).height();
-    if (scroll >= elemPos - windowHeight) {
-      $(this).addClass('mediaMove');
-    } else {
-      $(this).removeClass('mediaMove');
-    }
-  });
-
-}
-
-// 画面をスクロールをしたら動く場合の記述
-$(window).scroll(function () {
-
-  mediaMoveAnime1();
-
-});
-
-$(window).on('load', function () {
-
-  mediaMoveAnime1();
-
-});
 
