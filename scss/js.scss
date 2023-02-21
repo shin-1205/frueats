@@ -1,0 +1,373 @@
+/* fadeIn */
+.fadeIn{
+  opacity: 0;
+
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  animation-name: fadeInAnime;
+}
+
+@keyframes fadeInAnime{
+  from{
+    opacity: 0;
+  }
+
+  to{
+    opacity: 1;
+  }
+}
+
+/* スクロールをしたら出現する要素にはじめに透過0を指定　*/
+
+.fadeInTrigger{
+  opacity: 0;
+}
+
+
+
+/* test1 */
+
+
+/* fadeIn */
+.fadeIn1{
+  opacity: 0;
+
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-name: fadeInAnime1;
+}
+
+@keyframes fadeInAnime1{
+  from{
+    opacity: 0;
+    transform: translateY(100px);
+  }
+
+  to{
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+
+
+
+/* test2 */
+
+.fadeIn2{
+  opacity: 0;
+
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  animation-name: fadeInAnime2;
+}
+
+@keyframes fadeInAnime2{
+  from{
+    opacity: 0;
+    transform: translateY(100px);
+  }
+
+  to{
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+/* test3 */
+
+.fadeIn3{
+  opacity: 0;
+
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-name: fadeInAnime3;
+}
+
+@keyframes fadeInAnime3{
+  from{
+    opacity: 0;
+    transform: translateY(100px);
+  }
+
+  to{
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+/* sec-logo */
+
+.logoMove3{
+  opacity: 0;
+
+  animation-duration: 1.3s;
+  animation-fill-mode: forwards;
+  animation-name: logoMove1;
+}
+
+@keyframes logoMove1{
+  from{
+    opacity: 0;
+    transform: rotate(30deg) translateY(150%);
+
+    transform-origin: left bottom;
+  }
+
+  to{
+    opacity: 1;
+    transition: transform 0.8s;
+    transform: rotate(0) translateY(0);
+  }
+}
+
+
+/* story-left */
+
+
+.storyMove1{
+  opacity: 0;
+
+  animation-delay: 0.8s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-name: storyMoveAnime1;
+}
+
+@keyframes storyMoveAnime1{
+  from{
+    opacity: 0;
+    transform: translateY(80px);
+  }
+
+  to{
+    opacity: 1;
+    transition: transform 0.8s;
+    transform: translateY(0);
+  }
+}
+
+/* story-left */
+
+
+.storyMove2{
+  opacity: 0;
+
+  animation-delay: 0.3s;
+  animation-duration: 2.2s;
+  animation-fill-mode: forwards;
+  animation-name: storyMoveAnime2;
+}
+
+@keyframes storyMoveAnime2{
+  from{
+    opacity: 0;
+    transform: translateY(80px);
+  }
+
+  to{
+    opacity: 1;
+    transition: transform 0.8s;
+    transform: translateY(0);
+  }
+}
+
+
+/* Product */
+
+.product-left{
+  width: 428px;
+  position: relative;
+  right: 70px;
+}
+
+
+
+
+.product-article{
+  article{
+    cursor: pointer;
+  }
+
+  article img{
+    border-radius: 5px;
+    overflow: hidden;
+    transition: all 0.6s;
+  }
+
+  article img:hover{
+    transform: translateY(-3%);
+  }
+}
+
+.productLeft1{
+  opacity: 0;
+  position: absolute;
+  top: 1px;
+
+  animation-delay: 0.5s;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-name: productAnime1;
+}
+
+@keyframes productAnime1{
+  from{
+    opacity: 0;
+    transform: translateY(0) rotate(0);
+  }
+
+  to{
+    opacity: 1;
+    transform: translateX(30px) rotate(20deg);
+  }
+}
+
+
+
+.productLeft2{
+  opacity: 0;
+  position: absolute;
+  top: 1px;
+
+  animation-delay: 0.5s;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-name: productAnime2;
+}
+
+@keyframes productAnime2{
+  from{
+    opacity: 0;
+    transform: translateY(0) rotate(0);
+  }
+
+  to{
+    opacity: 1;
+    transform: translateX(-50px) rotate(-20deg);
+  }
+}
+
+
+
+.productLeft3{
+  opacity: 0;
+  position: absolute;
+  top: 1px;
+
+  animation-delay: 0.5s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-name: productAnime3;
+}
+
+@keyframes productAnime3{
+  from{
+    opacity: 0;
+    transform: translateY(10%);
+  }
+
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+
+.productMove1{
+  opacity: 0;
+
+  animation-delay: 1s;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-name: productAnime4;
+  animation-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@keyframes productAnime4{
+  from{
+    opacity: 0;
+    transform: translateY(30%);
+  }
+
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+.productMove2{
+  opacity: 0;
+
+  animation-delay: 1.2s;
+  animation-duration: 2.5s;
+  animation-fill-mode: forwards;
+  animation-name: productAnime4;
+  animation-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@keyframes productAnime5{
+  from{
+    opacity: 0;
+    transform: translateY(-3%);
+  }
+
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.secBtn1{
+  opacity: 0;
+
+  animation-delay: 1.2s;
+  animation-duration: 2.5s;
+  animation-fill-mode: forwards;
+  animation-name: BtnAnime1;
+  animation-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@keyframes BtnAnime1{
+  from{
+    opacity: 0;
+    transform: translateX(0);
+  }
+
+  to{
+    opacity: 1;
+    transform: translateX(20px);
+  }
+}
+
+
+
+
+/* News */
+
+
+.newsMove1{
+  opacity: 0;
+
+  animation-delay: 1.2s;
+  animation-duration: 2.5s;
+  animation-fill-mode: forwards;
+  animation-name: newsAnime1;
+  animation-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@keyframes newsAnime1{
+  from{
+    opacity: 0;
+    transform: translateY(20%);
+  }
+
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

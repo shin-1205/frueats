@@ -17,3 +17,5 @@ gsap.utils.toArray('.js-parallax').forEach(wrap => {
   })
 });
 
+
+/* 画面　入ったら　クラス付与 */

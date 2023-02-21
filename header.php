@@ -17,12 +17,37 @@
   <header>
     <nav>
       <ul>
-        <li><a href="#">Top</a></li>
-        <li><a href="#">開発ストーリー</a></li>
-        <li><a href="#">商品一覧</a></li>
-        <li><a href="#">ニュース</a></li>
-        <li><a href="#">店舗情報</a></li>
-        <li><a href="#">Magazine</a></li>
+        <div class="navi-mask"></div>
+        <li><a href="#">
+            <div class="navi-mask">
+              <p class="#text">Top</p>
+            </div>
+          </a></li>
+        <li><a href="#">
+            <div class="navi-mask">
+              <p class="#text">開発ストーリー</p>
+            </div>
+          </a></li>
+        <li><a href="#">
+            <div class="navi-mask">
+              <p class="#text">商品一覧</p>
+            </div>
+          </a></li>
+        <li><a href="#">
+            <div class="navi-mask">
+              <p class="#text">ニュース</p>
+            </div>
+          </a></li>
+        <li><a href="#">
+            <div class="navi-mask">
+              <p class="#text">店舗情報</p>
+            </div>
+          </a></li>
+        <li><a href="#">
+            <div class="navi-mask">
+              <p class="#text">Magazine</p>
+            </div>
+          </a></li>
       </ul>
     </nav>
 

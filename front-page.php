@@ -122,11 +122,13 @@
 
 
     <section class="article-box">
-      <h3 class="sec-logo">FruOats’s Feature</h3>
+      <div class="sec-logo-wrap">
+        <h3 class="sec-logo logoMove">FruOats’s Feature</h3>
+      </div>
 
       <div class="article-wrapper">
 
-        <article class="article">
+        <article class="article test1">
           <span class="article-span">1</span>
 
           <img
@@ -141,7 +143,7 @@
           </div>
         </article>
 
-        <article class="article2">
+        <article class="article2 test2">
           <span class="article-span2">2</span>
 
           <img
@@ -156,7 +158,7 @@
           </div>
         </article>
 
-        <article class="article3">
+        <article class="article3 test3">
           <span class="article-span3">3</span>
 
           <img
@@ -177,11 +179,13 @@
 
   <section class="story">
 
-    <h3 class="sec-logo">
-      Story / Promise</h3>
+    <div class="sec-logo-wrap">
+      <h3 class="sec-logo logoMove">
+        Story / Promise</h3>
+    </div>
 
     <div class="story-box">
-      <div class="story-left">
+      <div class="story-left storyMove1">
         <h2>おいしさとキレイの<br>
           両立を目指して</h2>
         <p>「おやつを我慢したくない」をきっかけにスタートしたFruOats(フルオーツ)の開発。ヘルシーと美味しさを両立させるために、通常使用される素材を使わずに、何十回もの試行錯誤を重ねました。</p>
@@ -189,7 +193,7 @@
       </div>
 
       <img src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/story-main2.webp?ver=20230127" alt=""
-        class="story-right">
+        class="story-right storyMove2">
     </div>
 
     <div class="story-wrapper">
@@ -205,21 +209,23 @@
 
   <div class="container">
     <section class="product">
-      <h3 class="sec-logo">Product</h3>
+      <div class="sec-logo-wrap">
+        <h3 class="sec-logo logoMove">Product</h3>
+      </div>
       <div class="product-box-top">
-        <div class="product-left">
+        <div class="product-left ">
           <img
             src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__product-deco_2_600x.webp"
-            alt="">
+            alt="" class="productLeft1 productimg1">
           <img
             src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__product-deco_1_600x.webp"
-            alt="">
+            alt="" class="productLeft2 productimg2">
           <img
             src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__product_600x.webp?ver=20230127"
-            alt="">
+            alt="" class="productLeft3 productimg3">
         </div>
 
-        <div class="product-right">
+        <div class="product-right productMove1">
           <p class="product-text-top">オートミール × おからの<br>
             グルテンフリークッキー </>
           <div class="right-center">
@@ -233,7 +239,7 @@
         </div>
       </div>
 
-      <div class="product-article">
+      <div class="product-article productMove2">
         <article>
           <img
             src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/ec_assets/08a4fe93bf2a1136a79b68af8d63acde3ac8f45d-large.jpg?1675331328"
@@ -267,28 +273,33 @@
         </article>
       </div>
 
-      <div class="product-btn">
+      <div class="product-btn secBtn1 secBtnAll">
         <a href="">Product All</a>
       </div>
     </section>
 
 
-    <section id="news">
+    <section id="news" class="newsMove1 newsarea">
       <h3>News</h3>
-      <dl>
-        <dt>2023.02.06</dt>
-        <dd>【2/6(月)より数量限定】「FruOats（フルオーツ）」より『ヴィーガンチョコレート』の販売を開始！</dd>
+      <dl><a href="#" class="newslink">
+          <dt>2023.02.06</dt>
+          <dd>【2/6(月)より数量限定】「FruOats（フルオーツ）」より『ヴィーガンチョコレート』の販売を開始！</dd>
+        </a>
       </dl>
       <dl>
-        <dt>2023.01.02</dt>
-        <dd>【会員さま、定期購入ご契約者さまへ】パスワード再設定&定期購入再開方法のご案内</dd>
+        <a href="#" class="newslink">
+          <dt>2023.01.02</dt>
+          <dd>【会員さま、定期購入ご契約者さまへ】パスワード再設定&定期購入再開方法のご案内</dd>
+        </a>
       </dl>
       <dl>
-        <dt>2022.12.19</dt>
-        <dd>【重要】システムメンテナンスによるサービス一時停止のお知らせ ＜停止期間：2022年12月28日~2023年1月2日＞</dd>
+        <a href="#" class="newslink">
+          <dt>2022.12.19</dt>
+          <dd>【重要】システムメンテナンスによるサービス一時停止のお知らせ ＜停止期間：2022年12月28日~2023年1月2日＞</dd>
+        </a>
       </dl>
 
-      <div class="product-btn">
+      <div class="product-btn secBtn1 secBtnAll">
         <a href="">News All</a>
       </div>
     </section>
@@ -296,7 +307,7 @@
 
   </div>
 
-  <section id="shop">
+  <section id="shop" class="fadeInTrigger">
     <div class="shop-box">
       <div class="shop-left">
 
