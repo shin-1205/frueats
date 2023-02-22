@@ -72,6 +72,7 @@
       </h3>
 
       <div id="navi">
+        <div class="login-btn"><a href="" class="login-btn1">ログイン</a></div>
         <ul class="nav-menu">
           <li><a href="<?php bloginfo('url');?>/">Top</a></li>
           <li><a href="<?php bloginfo('url');?>/">開発ストーリー</a></li>

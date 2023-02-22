@@ -14,12 +14,8 @@
 
 *{
   box-sizing: border-box;
-  vertical-align: baseline;
   padding: 0;
   margin: 0;
-  font: inherit;
-  line-height: inherit;
-  letter-spacing: inherit;
 }
 
 body{
@@ -44,6 +40,7 @@ li{
   max-width: 1658px;
   padding: 0 20px;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 
