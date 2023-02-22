@@ -231,9 +231,10 @@
           <div class="right-center">
             <h2>FruOats </h2><span>フルオーツ</span>
           </div>
-          <p class="product-right-price">¥2,960
-            <span>税込</span>
-            <span>30枚入り</span>
+          <p class="product-right-price">
+          <h4>¥2,960</h4>
+          <span>税込</span>
+          <span>30枚入り</span>
           </p>
           <a href="#">商品詳細をみる</a>
         </div>

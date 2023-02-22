@@ -4,8 +4,6 @@
 
 @mixin animationValue($name, $duration , $function, $delay, $count, $state){
   animation: $name $duration+s $function $delay+s $count $state;
-
-  -webkit-animation: $name $duration+s $function $delay+s $count $state;
 }
 
 @for $cnt from 1 through 6{
