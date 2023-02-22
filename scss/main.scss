@@ -169,30 +169,41 @@
 }
 
 .para-text{
-  padding-left: 10px;
-  margin-left: -10px;
-  overflow: hidden;
-  font-family: futura-pt, sans-serif;
-  color: #ffff;
-  font-size: 100px;
-  font-weight: 400;
-  font-style: normal;
+  display: block;
+  padding-right: 0.5em;
+  color: #fff;
+  font-size: 70px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-align: center;
   position: relative;
-  bottom: 190px;
-  animation: loop-text 40s infinite linear;
+  bottom: 170px;
+  animation: loop-text 40s linear infinite;
 
   white-space: nowrap;
 }
 
 @keyframes loop-text{
   0%{
-    transform: translateX(0);
+    transform: translate(0%);
   }
 
   100%{
-    transform: translateX(-100%);
+    transform: translate(-100%, 0%);
   }
 }
+
+// . {
+//   display: block;
+//   padding-right: 0.5em;
+//   color: #fff;
+//   font-size: 70px;
+//   font-weight: 600;
+//   letter-spacing: 0.1em;
+//   text-align: center;
+
+//   white-space: nowrap;
+// }
 
 .sec-logo-wrap{
   overflow: hidden;
@@ -349,15 +360,14 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(50%, 0%);
-  animation: marquee 80s linear infinite;
+  animation: marquee 120s linear infinite;
 
   white-space: nowrap;
 }
 
 @keyframes marquee{
   0%{
-    transform: translate(-40%, 0%);
+    transform: translate(-100%);
   }
 
   100%{
