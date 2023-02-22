@@ -468,13 +468,21 @@ $(window).on('load', function () {
 
 /* toggle */
 
-$(function () {
-  $('#toggle').on('click', function () {
-    $('body').toggleClass('is-open');
-    $('#main').toggleClass('overlay');
-  });
-  $(document).on('click', '.overlay', function () {
-    $('body').removeClass('is-open');
-    $('#main').removeClass('overlay');
-  });
+
+$('.toggle_btn').on('click', function () {
+  if ($('#header').hasClass('open')) {
+    $('#header').removeClass('open');
+  } else {
+    $('#header').addClass('open');
+  }
+});
+
+// #maskのエリアをクリックした時にメニューを閉じる
+$('#mask').on('click', function () {
+  $('#header').removeClass('open');
+});
+
+// リンクをクリックした時にメニューを閉じる
+$('#navi a').on('click', function () {
+  $('#header').removeClass('open');
 });

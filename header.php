@@ -67,27 +67,34 @@
 
     <!-- toggle -->
 
+    <div id="header">
+      <h3 class="site-title">
+      </h3>
 
-    <div id="toggle">
-      <div id="toggle-box">
+      <div id="navi">
+        <ul class="nav-menu">
+          <li><a href="<?php bloginfo('url');?>/">Top</a></li>
+          <li><a href="<?php bloginfo('url');?>/">開発ストーリー</a></li>
+          <li><a href="<?php bloginfo('url');?>/">商品一覧</a></li>
+          <li><a href="<?php bloginfo('url');?>/">ニュース</a></li>
+          <li><a href="<?php bloginfo('url');?>/">店舗情報</a></li>
+          <li><a href="<?php bloginfo('url');?>/">Magazine</a></li>
+        </ul>
+        <ul class="nav-sns">
+          <li><a href="https://twitter.com/" target="_blank">公式アカウント</a></li>
+          <li><a href="https://www.facebook.com/" target="_blank"></a></li>
+          <li><a href="https://www.instagram.com/" target="_blank"></a></li>
+        </ul>
+      </div>
+
+      <div class="toggle_btn">
         <span></span>
         <span></span>
         <span></span>
       </div>
-    </div>
 
-    <div class="toggle-menu">
-      <nav>
-        <ul>
-          <li><a href="#">Link1</a></li>
-          <li><a href="#">Link2</a></li>
-          <li><a href="#">Link3</a></li>
-          <li><a href="#">Link4</a></li>
-          <li><a href="#">Link5</a></li>
-        </ul>
-      </nav>
+      <div id="mask"></div>
     </div>
-
 
 
   </header>
