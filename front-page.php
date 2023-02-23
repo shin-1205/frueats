@@ -241,7 +241,7 @@
             <span>税込</span>
             <span>30枚入り</span>
           </div>
-          <a href="#">商品詳細をみる</a>
+          <a href="<?php bloginfo('url');?>/product">商品詳細をみる</a>
         </div>
       </div>
 

@@ -469,8 +469,8 @@
 
 @media screen and(max-width: 920px){
   .head-nav{
-    // display: none;
     opacity: 0;
+    pointer-events: none;
   }
 
   header .head-right ul li:nth-child(1){
@@ -598,5 +598,6 @@
 
   .head-nav{
     opacity: 0;
+    pointer-events: none;
   }
 }

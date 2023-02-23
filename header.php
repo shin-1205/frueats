@@ -6,6 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="<?php echo get_theme_file_uri(); ?>/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
 
   <title>Document</title>
   <?php wp_head(); ?>
@@ -22,27 +24,27 @@
               <p data-text="Top">Top</p>
             </div>
           </a></li>
-        <li><a href="#">
+        <li><a href="<?php bloginfo('url');?>">
             <div class="navi-mask">
               <p data-text="開発ストーリー">開発ストーリー</p>
             </div>
           </a></li>
-        <li><a href="#">
+        <li><a href="<?php bloginfo('url');?>">
             <div class="navi-mask">
               <p data-text="商品一覧">商品一覧</p>
             </div>
           </a></li>
-        <li><a href="#">
+        <li><a href="<?php bloginfo('url');?>">
             <div class="navi-mask">
               <p data-text="ニュース">ニュース</p>
             </div>
           </a></li>
-        <li><a href="#">
+        <li><a href="<?php bloginfo('url');?>">
             <div class="navi-mask">
               <p data-text="店舗情報">店舗情報</p>
             </div>
           </a></li>
-        <li><a href="#">
+        <li><a href="<?php bloginfo('url');?>">
             <div class="navi-mask">
               <p data-text="Magazine">Magazine</p>
             </div>
@@ -51,17 +53,17 @@
     </nav>
 
     <div id="logo">
-      <a href="#">
+      <a href="<?php bloginfo('url');?>">
         <img src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.shared__logo_wh.svg" alt="">
       </a>
     </div>
 
     <div class="head-right">
       <ul>
-        <li><a href="#">Login</a></li>
-        <li class="head-mark"><a href="#"><img
+        <li><a href="<?php bloginfo('url');?>">Login</a></li>
+        <li class="head-mark"><a href="<?php bloginfo('url');?>"><img
               src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.shared__icon-cart_or.svg"
-              alt=""></a></li>
+              alt="<?php bloginfo('url');?>"></a></li>
       </ul>
     </div>
 
@@ -72,7 +74,7 @@
       </h3>
 
       <div id="navi">
-        <div class="login-btn"><a href="" class="login-btn1">ログイン</a></div>
+        <div class="login-btn"><a href=<?php bloginfo('url');?>" class="login-btn1">ログイン</a></div>
         <ul class="nav-menu">
           <li><a href="<?php bloginfo('url');?>/">Top</a></li>
           <li><a href="<?php bloginfo('url');?>/">開発ストーリー</a></li>
