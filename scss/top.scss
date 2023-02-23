@@ -45,5 +45,12 @@ li{
   overflow: hidden;
 }
 
+.container::selection{
+  background-color: #ec6c4e;
+  color: #fff;
+}
 
-/* toggle */
+.container::-moz-selection{
+  background-color: #ec6c4e;
+  color: #fff;
+}
