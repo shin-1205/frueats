@@ -84,7 +84,7 @@
 
 
             <div class="inputGroup">
-              <input id="radio1" name="radio" type="radio" />
+              <input id="radio1" name="radio" type="radio" checked>
               <label for="radio1">
                 <div class="radio-top">通常の購入<h4>¥2,960<span>税込</span></h4>
                 </div>
@@ -531,6 +531,27 @@
 
       </section>
 
+      <section class="product-gallary">
+        <div class="product-sec-title">
+          <h2>＼ 好評いただいてます ／</h2>
+        </div>
+        <div class="product-gallary-visual">
+          <img
+            src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/FruOats_HP2022_1_880x.webp?ver=20230127"
+            alt="">
+        </div>
+        <h2>多数のメディアに掲載！</h2>
+        <p>
+          2021年9月に発売を開始したフルオーツはメディアにも注目いただき、「an an」や「CREA」、「mina」など、多数のメディアで紹介されています。</p>
+
+        <img
+          src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/FruOats_HP2022090701_880x.webp?ver=20230127"
+          alt="">
+        <h2>Instagramでも話題に</h2>
+        <p>
+          Instagramの投稿、ストーリーズで、フルオーツを食べた感想やアレンジなど、たくさん投稿をいただいています。</p>
+
+      </section>
 
     </div>
   </div>
