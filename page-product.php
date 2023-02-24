@@ -4,6 +4,11 @@
   <div class="container">
     <div class="product-wrap">
 
+      <div class="product-popup">
+        <div class="popup-btn">
+          <a href="#">【Amazon Pay対応】 30秒で購入</a>
+        </div>
+      </div>
 
 
       <section class="product-content-main">
@@ -456,7 +461,7 @@
 
 
       <section class="product-feature">
-        <div class="product-sec-title">
+        <div class="product-sec-title2">
           <h2>＼ 各専門家が監修 ／</h2>
         </div>
 
@@ -532,7 +537,7 @@
       </section>
 
       <section class="product-gallary">
-        <div class="product-sec-title">
+        <div class="product-sec-title2">
           <h2>＼ 好評いただいてます ／</h2>
         </div>
         <div class="product-gallary-visual">

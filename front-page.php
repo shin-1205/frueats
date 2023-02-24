@@ -16,7 +16,7 @@
     </div>
 
 
-    <div class="xslider_wrap" ontouchstart="">
+    <div class="xslider_wrap">
 
       <div class="xslider1">
 
@@ -79,7 +79,7 @@
     <img src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__scroll.svg" alt="">
   </div>
 
-  <div class="p-index-float"><a href="">
+  <div class="p-index-float popupTop"><a href="">
       <img src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/banner_1_400x.webp?ver=20230127"
         alt=""></a>
   </div>

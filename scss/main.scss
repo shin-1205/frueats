@@ -40,7 +40,7 @@
 .xslider1, .xslider2{
   display: inline-flex;
   flex: none;
-  animation: xslider 80s linear infinite;
+  animation: loop-text2 80s linear infinite;
 }
 
 
@@ -52,13 +52,24 @@
 }
 
 
-@keyframes xslider{
+// @keyframes xslider {
+//   0% {
+//     transform: translateX(0);
+//   }
+
+//   100% {
+//     transform: translateX(-100%);
+//   }
+// }
+
+
+@keyframes loop-text2{
   0%{
-    transform: translateX(0);
+    transform: translate(0%);
   }
 
   100%{
-    transform: translateX(-100%);
+    transform: translate(-100%, 0%);
   }
 }
 

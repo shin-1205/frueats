@@ -531,3 +531,26 @@ $(function () {
     return false;
   });
 });
+
+
+/* product popup */
+
+$(function () {
+  // 変数にクラスを入れる
+  var section = $('.product-popup');
+
+  //スクロールして、スクロール量が100を超えたら表示
+  $(window).on('scroll', function () {
+    if ($(this).scrollTop() > 550) {
+      section.addClass('popup');
+    } else {
+      section.removeClass('popup');
+    }
+  });
+
+
+});
+
+
+
+
