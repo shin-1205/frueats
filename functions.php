@@ -2,16 +2,16 @@
 
 // <!-- デフォルト投稿設定 -->
 
-// <!-- function post_has_archive( $args, $post_type ) {
-// if ( 'post' == $post_type ) {
-//  $args['rewrite'] = true;
-//  $args['has_archive'] = 'news'; //任意のスラッグ名　←アーカイブページを有効に
-//  $args['label'] = 'お知らせ'; //管理画面左ナビに「投稿」の代わりに表示される
-//  }
-//  return $args;
-// }
-// add_filter( 'register_post_type_args', 'post_has_archive', 10, 2 );
-//  -->
+ function post_has_archive( $args, $post_type ) {
+if ( 'post' == $post_type ) {
+ $args['rewrite'] = true;
+ $args['has_archive'] = 'news'; //任意のスラッグ名　←アーカイブページを有効に
+ $args['label'] = 'NEWS'; //管理画面左ナビに「投稿」の代わりに表示される
+ }
+ return $args;
+}
+add_filter( 'register_post_type_args', 'post_has_archive', 10, 2 );
+ 
 
 
 // <!-- 固定ページの入力欄を消す -->

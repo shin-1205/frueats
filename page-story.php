@@ -199,9 +199,7 @@
       </dl>
     </div>
 
-    <div class="top-btn">
-      <a href="<?php bloginfo('url');?>">TOPページへ</a>
-    </div>
+    <a href="<?php bloginfo('url');?>" class="top-btn">TOPページへ</a>
 
   </section>
 
