@@ -14,6 +14,10 @@
 
 @use "product";
 
+@use "product-list";
+
+@use "story";
+
 *{
   box-sizing: border-box;
   padding: 0;

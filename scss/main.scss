@@ -52,15 +52,6 @@
 }
 
 
-// @keyframes xslider {
-//   0% {
-//     transform: translateX(0);
-//   }
-
-//   100% {
-//     transform: translateX(-100%);
-//   }
-// }
 
 
 @keyframes loop-text2{
@@ -182,6 +173,7 @@
 .para-text{
   display: block;
   padding-right: 0.5em;
+  overflow: hidden;
   color: #fff;
   font-size: 70px;
   font-weight: 600;

@@ -1,0 +1,82 @@
+#product-list{
+  max-width: 1000px;
+  padding: 0 auto;
+  padding-top: 200px;
+  margin: 0 auto;
+
+  .product-all-wrap{
+    margin: 0 auto;
+  }
+
+  h1{
+    padding-bottom: 60px;
+    font-family: futura-pt, sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1;
+    text-align: center;
+  }
+
+  .product-list-all{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .product-list-all article{
+    width: 23%;
+    margin: 0 13px 60px 0;
+
+    img{
+      border-radius: 5px;
+    }
+
+    h3{
+      padding-top: 10px;
+      padding-right: 25px;
+      padding-bottom: 15px;
+      font-family: "Noto Sans JP", "Noto Sans CJK JP", "Noto Sans Japanese", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W6", "ヒラギノ角ゴシック", "Hiragino Sans", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+      font-size: 13px;
+      font-weight: 700;
+      line-height: 1.4;
+      position: relative;
+    }
+
+    .product-all-price a{
+      display: flex;
+      align-items: baseline;
+
+      p{
+        margin-right: 5px;
+        font-family: "Inter", sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+      }
+
+      span{
+        opacity: 0.5;
+        font-size: 11px;
+      }
+    }
+  }
+}
+
+.product-item-name::after{
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-image: url("https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.shared__nav-arrow-right_wh.svg");
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: calc(50% - 10px);
+  right: 0;
+  transform: 0.3s;
+}
+
+@media screen and(max-width: 920px){
+  .product-list-all article{
+    width: 32%;
+  }
+}

@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="<?php echo get_theme_file_uri(); ?>/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+  <link href="https://fonts.cdnfonts.com/css/futura-pt" rel="stylesheet">
 
   <title>Document</title>
   <?php wp_head(); ?>
@@ -19,27 +20,27 @@
   <header>
     <nav class="head-nav">
       <ul>
-        <li><a href="#">
+        <li><a href="<?php bloginfo('url');?>">
             <div class="navi-mask">
               <p data-text="Top">Top</p>
             </div>
           </a></li>
-        <li><a href="<?php bloginfo('url');?>">
+        <li><a href="<?php bloginfo('url');?>/story">
             <div class="navi-mask">
               <p data-text="開発ストーリー">開発ストーリー</p>
             </div>
           </a></li>
-        <li><a href="<?php bloginfo('url');?>">
+        <li><a href="<?php bloginfo('url');?>/productall">
             <div class="navi-mask">
               <p data-text="商品一覧">商品一覧</p>
             </div>
           </a></li>
-        <li><a href="<?php bloginfo('url');?>">
+        <li><a href="<?php bloginfo('url');?>/news">
             <div class="navi-mask">
               <p data-text="ニュース">ニュース</p>
             </div>
           </a></li>
-        <li><a href="<?php bloginfo('url');?>">
+        <li><a href="<?php bloginfo('url');?>/shop">
             <div class="navi-mask">
               <p data-text="店舗情報">店舗情報</p>
             </div>
@@ -74,13 +75,13 @@
       </h3>
 
       <div id="navi">
-        <div class="login-btn"><a href=<?php bloginfo('url');?>" class="login-btn1">ログイン</a></div>
+        <div class="login-btn"><a href="<?php bloginfo('url');?>" class="login-btn1">ログイン</a></div>
         <ul class="nav-menu">
-          <li><a href="<?php bloginfo('url');?>/">Top</a></li>
-          <li><a href="<?php bloginfo('url');?>/">開発ストーリー</a></li>
-          <li><a href="<?php bloginfo('url');?>/">商品一覧</a></li>
-          <li><a href="<?php bloginfo('url');?>/">ニュース</a></li>
-          <li><a href="<?php bloginfo('url');?>/">店舗情報</a></li>
+          <li><a href="<?php bloginfo('url');?>">Top</a></li>
+          <li><a href="<?php bloginfo('url');?>/story">開発ストーリー</a></li>
+          <li><a href="<?php bloginfo('url');?>/productall">商品一覧</a></li>
+          <li><a href="<?php bloginfo('url');?>/news">ニュース</a></li>
+          <li><a href="<?php bloginfo('url');?>/shop">店舗情報</a></li>
           <li><a href="<?php bloginfo('url');?>/">Magazine</a></li>
         </ul>
         <ul class="nav-sns">
