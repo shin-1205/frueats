@@ -16,7 +16,7 @@
     </div>
 
 
-    <div class="xslider_wrap" ontouchstart="">
+    <div class="xslider_wrap">
 
       <div class="xslider1">
 
@@ -79,7 +79,7 @@
     <img src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__scroll.svg" alt="">
   </div>
 
-  <div class="p-index-float"><a href="">
+  <div class="p-index-float popupTop"><a href="">
       <img src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/banner_1_400x.webp?ver=20230127"
         alt=""></a>
   </div>
@@ -194,7 +194,7 @@
         <h2>おいしさとキレイの<br>
           両立を目指して</h2>
         <p>「おやつを我慢したくない」をきっかけにスタートしたFruOats(フルオーツ)の開発。ヘルシーと美味しさを両立させるために、通常使用される素材を使わずに、何十回もの試行錯誤を重ねました。</p>
-        <a href="#">誕生ストーリーをみる</a>
+        <a href="<?php bloginfo('url');?>/story">誕生ストーリーをみる</a>
       </div>
 
       <img src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/story-main2.webp?ver=20230127" alt=""
@@ -246,67 +246,69 @@
       </div>
 
       <div class="product-article newsMove1">
-        <article>
-          <img
-            src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/ec_assets/08a4fe93bf2a1136a79b68af8d63acde3ac8f45d-large.jpg?1675331328"
-            alt="">
-          <p><a href="#">【在庫限り】ヴィーガンチョコレート 2種セット</a></p>
-          <h4>¥2,960<span>税込</span></h4>
-        </article>
+
+
+        <?php
+      $args = array(
+      'post_type' => 'item',
+      'posts_per_page' => 4,
+      'order' => 'DESC',
+      );
+      $query_instance = new WP_Query($args);
+      ?>
 
         <article>
-          <img
-            src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/ec_assets/c626191e897d53e67675a2c17dcc2529d76af210-large.jpg?1671818423"
-            alt="">
-          <p><a href="#">オートミールクッキー『FruOats（フルオーツ）』6種セット 30枚入り</a></p>
-          <h4>¥2,960<span>税込</span></h4>
-        </article>
 
-        <article>
-          <img
-            src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/ec_assets/59030b5489aa2f51e5a7e3a42c22c65e97c65aed-large.jpg?1671818533"
-            alt="">
-          <p><a href="#">オートミールクッキー『FruOats（フルオーツ）』プレーン 30枚入り</a></p>
-          <h4>¥2,960<span>税込</span></h4>
-        </article>
+          <?php if ($query_instance->have_posts()): ?>
+          <?php while ( $query_instance->have_posts()): $query_instance->the_post(); ?>
 
-        <article>
-          <img
-            src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/ec_assets/8045b472962647edec1bb2eef749b85c64c70ecd-large.jpg?1671818619"
-            alt="">
-          <p><a href="#">オートミールクッキー『FruOats（フルオーツ）』トマトバジル 30枚入り【1日50限定】</a></p>
-          <h4>¥2,960<span>税込</span></h4>
+          <img src="<?php the_field('item画像1'); ?>" alt="">
+          <p><a href="<?php echo get_permalink( $id );?>"><?php the_title(); ?></a></p>
+          <h4>¥<?php the_field('値段'); ?><span>税込</span></h4>
+
+          <?php endwhile ?>
+          <?php endif ?>
+          <?php wp_reset_postdata(); ?>
+
         </article>
       </div>
 
       <div class="product-btn secBtn1 secBtnAll">
-        <a href="">Product All</a>
+        <a href="<?php bloginfo('url');?>/item">Product All</a>
       </div>
     </section>
 
 
     <section id="news" class="newsMove1 newsarea">
       <h3>News</h3>
-      <dl><a href="#" class="newslink">
-          <dt>2023.02.06</dt>
-          <dd>【2/6(月)より数量限定】「FruOats（フルオーツ）」より『ヴィーガンチョコレート』の販売を開始！</dd>
-        </a>
-      </dl>
+
       <dl>
-        <a href="#" class="newslink">
-          <dt>2023.01.02</dt>
-          <dd>【会員さま、定期購入ご契約者さまへ】パスワード再設定&定期購入再開方法のご案内</dd>
+
+        <?php
+      $args = array(
+      'post_type' => 'post',
+      'posts_per_page' => 3,
+      'order' => 'DESC',
+      );
+      $query_instance = new WP_Query($args);
+      ?>
+        <?php if ($query_instance->have_posts()): ?>
+        <?php while ( $query_instance->have_posts()): $query_instance->the_post(); ?>
+
+        <a href="<?php echo get_permalink( $id );?>" class="newslink">
+          <dt><?php the_time('Y.n.j'); ?></dt>
+          <dd><?php the_title(); ?></dd>
         </a>
-      </dl>
-      <dl>
-        <a href="#" class="newslink">
-          <dt>2022.12.19</dt>
-          <dd>【重要】システムメンテナンスによるサービス一時停止のお知らせ ＜停止期間：2022年12月28日~2023年1月2日＞</dd>
-        </a>
+
+        <?php endwhile ?>
+        <?php endif ?>
+        <?php wp_reset_postdata(); ?>
+
       </dl>
 
+
       <div class="product-btn secBtn1 secBtnAll">
-        <a href="">News All</a>
+        <a href="<?php echo home_url('/'); ?>/news">News All</a>
       </div>
     </section>
 
@@ -331,7 +333,7 @@
           <dd>東京都江東区扇橋1丁目12-20</dd>
         </dl>
         <div class="shop-btn">
-          <a href="#">もっと詳しく</a>
+          <a href="<?php bloginfo('url');?>/shop">もっと詳しく</a>
         </div>
       </div>
     </div>

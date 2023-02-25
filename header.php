@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
   <link href="https://fonts.cdnfonts.com/css/futura-pt" rel="stylesheet">
 
-  <title>Document</title>
+  <title>フルオーツ　デモ</title>
   <?php wp_head(); ?>
 </head>
 
@@ -30,7 +30,7 @@
               <p data-text="開発ストーリー">開発ストーリー</p>
             </div>
           </a></li>
-        <li><a href="<?php bloginfo('url');?>/productall">
+        <li><a href="<?php bloginfo('url');?>/item">
             <div class="navi-mask">
               <p data-text="商品一覧">商品一覧</p>
             </div>
@@ -79,7 +79,7 @@
         <ul class="nav-menu">
           <li><a href="<?php bloginfo('url');?>">Top</a></li>
           <li><a href="<?php bloginfo('url');?>/story">開発ストーリー</a></li>
-          <li><a href="<?php bloginfo('url');?>/productall">商品一覧</a></li>
+          <li><a href="<?php bloginfo('url');?>/item">商品一覧</a></li>
           <li><a href="<?php bloginfo('url');?>/news">ニュース</a></li>
           <li><a href="<?php bloginfo('url');?>/shop">店舗情報</a></li>
           <li><a href="<?php bloginfo('url');?>/">Magazine</a></li>

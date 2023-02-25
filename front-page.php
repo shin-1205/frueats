@@ -257,24 +257,26 @@
       $query_instance = new WP_Query($args);
       ?>
 
+
+
+        <?php if ($query_instance->have_posts()): ?>
+        <?php while ( $query_instance->have_posts()): $query_instance->the_post(); ?>
         <article>
-
-          <?php if ($query_instance->have_posts()): ?>
-          <?php while ( $query_instance->have_posts()): $query_instance->the_post(); ?>
-
-          <img src="<?php the_field('item画像1'); ?>" alt="">
-          <p><a href="<?php echo get_permalink( $id );?>"><?php the_title(); ?></a></p>
-          <h4>¥<?php the_field('値段'); ?><span>税込</span></h4>
-
-          <?php endwhile ?>
-          <?php endif ?>
-          <?php wp_reset_postdata(); ?>
-
+          <a href="<?php echo get_permalink( $id );?>">
+            <img src="<?php the_field('item画像1'); ?>" alt="">
+            <p><?php the_title(); ?></p>
+            <h4>¥<?php the_field('値段'); ?><span>税込</span></h4>
+          </a>
         </article>
+        <?php endwhile ?>
+        <?php endif ?>
+        <?php wp_reset_postdata(); ?>
+
+
       </div>
 
       <div class="product-btn secBtn1 secBtnAll">
-        <a href="<?php echo home_url('/'); ?>product/">Product All</a>
+        <a href="<?php bloginfo('url');?>/item">Product All</a>
       </div>
     </section>
 
