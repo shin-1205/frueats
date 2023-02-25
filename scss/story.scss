@@ -26,13 +26,16 @@
 
 
   .story-main-wrap{
+    max-width: 1140px;
     padding: 0 100px;
-    margin: 0 50px;
+    margin: 0 auto;
     background-color: #ffff;
     border-radius: 5px;
     color: #333;
     position: absolute;
     top: 500px;
+    left: 0;
+    right: 0;
 
 
     .story-main-top{
