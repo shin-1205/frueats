@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="shop-wrap">
+<div class="shop-wrap fadeInTrigger">
   <div class="container">
 
     <h1>SHOP</h1>
