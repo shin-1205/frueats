@@ -1,11 +1,11 @@
 <footer>
   <div class="foot-top">
     <ul>
-      <li><a href="#">FAQ</a></li>
-      <li><a href="#">お問い合わせ</a></li>
-      <li><a href="#">利用規約</a></li>
-      <li><a href="#">プライバシーポリシー</a></li>
-      <li><a href="#">特定商取引法に基づく表記</a></li>
+      <li><a href="<?php bloginfo('url');?>/faq">FAQ</a></li>
+      <li><a href="<?php bloginfo('url');?>/contact">お問い合わせ</a></li>
+      <li><a href="<?php bloginfo('url');?>/rules">利用規約</a></li>
+      <li><a href="<?php bloginfo('url');?>/privacy-policy">プライバシーポリシー</a></li>
+      <li><a href="<?php bloginfo('url');?>/law">特定商取引法に基づく表記</a></li>
     </ul>
   </div>
 
