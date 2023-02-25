@@ -19,8 +19,8 @@ add_filter( 'register_post_type_args', 'post_has_archive', 10, 2 );
 
 
 add_filter('use_block_editor_for_post',function($use_block_editor,$post){
-	if($post->post_type==='post'){
-		if(in_array($post->post_name,['item'])){ //ページスラッグが「about」または「company」ならコンテンツエディターを非表示
+	if($post->post_type==='page'){
+		if(in_array($post->post_name,['item','faq'])){ //ページスラッグが「about」または「company」ならコンテンツエディターを非表示
 			remove_post_type_support('page','editor');
 			return false;
 		}

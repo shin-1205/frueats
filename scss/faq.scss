@@ -1,0 +1,37 @@
+.faq-wrap{
+  padding-top: 200px;
+
+  .faq-main{
+    max-width: 950px;
+    padding: 0 20px;
+    padding-bottom: 100px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 5px;
+    color: #ec6c4e;
+
+
+    h1{
+      padding: 40px 0;
+      margin: 0 auto 30px;
+      font-size: 26px;
+      font-weight: 700;
+      letter-spacing: 0;
+      text-align: center;
+    }
+
+    .faq-accordion{
+      max-width: 750px;
+      margin: 0 auto;
+
+      .accordion{
+        padding-left: 10px;
+        font-size: 14px;
+
+        .menu{
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}

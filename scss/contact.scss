@@ -29,6 +29,11 @@
       color: #333;
       font-size: 14px;
       line-height: 1.75;
+
+      a{
+        border-bottom: 1px solid #ec6c4e;
+        color: #ec6c4e;
+      }
     }
 
     p{
@@ -60,9 +65,16 @@
       margin: 0 auto;
       background-color: #ec6c4e;
       border: 1px solid #ec6c4e;
+      cursor: pointer;
       color: #ffff;
       font-weight: bold;
       text-align: center;
+      transition: 0.3s;
+
+      &:hover{
+        background-color: #fff;
+        color: #ec6c4e;
+      }
     }
   }
 }

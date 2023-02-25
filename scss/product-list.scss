@@ -26,6 +26,11 @@
   .product-list-all article{
     width: 23%;
     margin: 0 13px 60px 0;
+    transition: 0.3s;
+
+    &:hover{
+      transform: translateY(-3%);
+    }
 
     img{
       border-radius: 5px;
@@ -45,6 +50,7 @@
     .product-all-price a{
       display: flex;
       align-items: baseline;
+
 
       p{
         margin-right: 5px;
