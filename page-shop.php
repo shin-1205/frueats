@@ -8,7 +8,7 @@
     <div class="shop-content-main">
       <img src="<?php echo get_theme_file_uri(); ?>/img/bgimg/STOCKER1202100_TP_V.jpg" alt="">
       <h2>FruEats FACTORY</h2>
-      <h3>The store sells FruOats, coffee and organic fruit juices. <br>
+      <h3>The store sells FruEats, coffee and organic fruit juices. <br>
         Grand opening from Monday, April 25, 2022. (Pre-opening on March 23, 2022)</h3>
 
       <dl>

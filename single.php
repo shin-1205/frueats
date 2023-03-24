@@ -35,7 +35,7 @@
     </div>
   </div>
 
-  <a href="<?php echo home_url('/'); ?>news/" class="top-btn">NEWS Pages</a>
+  <a href="<?php echo home_url('/'); ?>news/" class="top-btn">Back to NEWS</a>
 
 </div>
 

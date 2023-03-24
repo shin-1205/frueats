@@ -32,7 +32,7 @@
         </div>
 
         <div class="product-main-right">
-          <h2>オートミールクッキー『FruOats（フルオーツ）』5種セット 30個入り</h2>
+          <h2>Oatmeal macaron “FruEats” 6 colors</h2>
           <h3>★★★★★ <a href="">163 reviews</a></h3>
 
           <form class="form">
@@ -244,7 +244,7 @@
                 <p>We developed Fluoats at the cafe "Kraft Coffee" in the shared office in Kiyosumi Shirakawa. This cafe
                   was also featured in Shobunsha's "Tokyo Best Cafe" (published on September 14, 2021). <br>
                   <br>
-                  In March 2022, the FruEats factory and direct sales store “FruOats FACTORY” will be opened in Kiyosumi
+                  In March 2022, the FruEats factory and direct sales store “FruEats FACTORY” will be opened in Kiyosumi
                   Shirakawa, and everything from manufacturing, management and sales is done at “FruEats FACTORY”.
                 </p>
               </article>

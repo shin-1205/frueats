@@ -19,7 +19,7 @@
     <p>Article 1 Definitions<br>
       1. "Member" means a user who has registered as a member in accordance with Article 3. <br>
       2. "This site" means the EC site "Oatmeal Cookie FruEats" operated by the Company. <br>
-      3. "Product" means "FruOats" and other products sold by the Company on this site. <br>
+      3. "Product" means "FruEats" and other products sold by the Company on this site. <br>
       4. "User" means a member or any other person who uses this service. </p>
 
     <h2>Article 2 Application and Modification of these Terms of Use</h2>

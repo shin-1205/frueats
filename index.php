@@ -59,7 +59,7 @@
 
 
   <section class="about">
-    <h3>About FruOats</h3>
+    <h3>About FruEats</h3>
 
     <div class="about-left js-parallax">
       <h2>don't be patient,<br>
@@ -98,7 +98,7 @@
 
     <section class="article-box">
       <div class="sec-logo-wrap">
-        <h3 class="sec-logo logoMove">FruOats’s Feature</h3>
+        <h3 class="sec-logo logoMove">FruEats’s Feature</h3>
       </div>
 
       <div class="article-wrapper">

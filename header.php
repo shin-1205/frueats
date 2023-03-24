@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="<?php echo get_theme_file_uri(); ?>/style.css">
+  <link rel="shortcut icon" href="<?php echo get_theme_file_uri(); ?>/img/logo/FruEatsFab.svg">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
   <link href="https://fonts.cdnfonts.com/css/futura-pt" rel="stylesheet">
@@ -27,22 +28,22 @@
           </a></li>
         <li><a href="<?php bloginfo('url');?>/story">
             <div class="navi-mask">
-              <p data-text="開発ストーリー">Story</p>
+              <p data-text="Story">Story</p>
             </div>
           </a></li>
         <li><a href="<?php bloginfo('url');?>/item">
             <div class="navi-mask">
-              <p data-text="商品一覧">Product</p>
+              <p data-text="Product">Product</p>
             </div>
           </a></li>
         <li><a href="<?php bloginfo('url');?>/news">
             <div class="navi-mask">
-              <p data-text="ニュース">News</p>
+              <p data-text="News">News</p>
             </div>
           </a></li>
         <li><a href="<?php bloginfo('url');?>/shop">
             <div class="navi-mask">
-              <p data-text="店舗情報">Shop</p>
+              <p data-text="Shop">Shop</p>
             </div>
           </a></li>
       </ul>

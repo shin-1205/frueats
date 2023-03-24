@@ -259,7 +259,7 @@
                 <p>We developed Fluoats at the cafe "Kraft Coffee" in the shared office in Kiyosumi Shirakawa. This cafe
                   was also featured in Shobunsha's "Tokyo Best Cafe" (published on September 14, 2021). <br>
                   <br>
-                  In March 2022, the FruEats factory and direct sales store “FruOats FACTORY” will be opened in Kiyosumi
+                  In March 2022, the FruEats factory and direct sales store “FruEats FACTORY” will be opened in Kiyosumi
                   Shirakawa, and everything from manufacturing, management and sales is done at “FruEats FACTORY”.
                 </p>
               </article>
