@@ -6,26 +6,25 @@
     <h1>SHOP</h1>
 
     <div class="shop-content-main">
-      <img
-        src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.shop__eyecatch_880x.webp?ver=20230127"
-        alt="">
-      <h2>FruOats FACTORY</h2>
-      <h3>店頭ではFruOatsとコーヒー、オーガニックフルーツジュースを販売しています。<br>
-        2022年4月25日（月）よりグランドオープン。（2022年3月23日にプレオープン）</h3>
+      <img src="<?php echo get_theme_file_uri(); ?>/img/bgimg/STOCKER1202100_TP_V.jpg" alt="">
+      <h2>FruEats FACTORY</h2>
+      <h3>The store sells FruOats, coffee and organic fruit juices. <br>
+        Grand opening from Monday, April 25, 2022. (Pre-opening on March 23, 2022)</h3>
 
       <dl>
-        <dt>営業時間</dt>
-        <dd>月~日（水曜除く）11:00~17:00
+        <dt>Shop/dt>
+        <dd>Monday-Friday (excluding holidays) 11:00-17:00
         </dd>
       </dl>
       <dl>
-        <dt>店舗所在地</dt>
-        <dd>東京都江東区扇橋1丁目12-20<br>Google map
+        <dt>Store location</dt>
+        <dd>1-12-20 Ogibashi, Koto-ku, Tokyo
         </dd>
       </dl>
       <dl>
-        <dt>アクセス</dt>
-        <dd>東京メトロ半蔵門線/住吉駅 徒歩9分<br>都営大江戸線/清澄白河駅 徒歩12分
+        <dt>access</dt>
+        <dd>Tokyo Metro Hanzomon Line/Sumiyoshi Station 9 minutes on foot<br>Toei Oedo Line/Kiyosumi Shirakawa Station
+          12 minutes on foot
         </dd>
       </dl>
 
@@ -34,14 +33,12 @@
 
         <h4>FOLLOW ME</h4>
         <a href="<?php bloginfo('url');?>">
-          <img
-            src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.shared__icon-instagram_or.svg"
-            alt="">
+          <img src="<?php echo get_theme_file_uri(); ?>/img/icons/Instagram.svg" alt="">
         </a>
       </div>
     </div>
 
-    <a href="<?php bloginfo('url');?>" class="top-btn">TOPページへ</a>
+    <a href="<?php bloginfo('url');?>" class="top-btn">TOP</a>
 
 
   </div>

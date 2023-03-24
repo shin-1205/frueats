@@ -5,130 +5,202 @@
   <div class="other-main">
 
     <div class="c-title">
-      <h1>利用規約</h1>
+      <h1>Terms of Use</h1>
     </div>
 
-    <h2>はじめに</h2>
+    <h2>Introduction</h2>
 
-    <p>本利用規約は、株式会社フルオーツ(以下「当社」といいます)の商品の販売、その他当社の提供するサービス(以下総称して「本サービス」といいます)における利用条件を定めるものです。</p>
+    <p>This Terms of Use defines the terms of use for selling products of FruEats Co., Ltd. (hereinafter referred to as
+      "our company") and other services provided by our company (hereinafter collectively referred to as "this
+      service"). is. </p>
 
-    <h2>第1条 定義</h2>
+    <h2>Article 1 Definitions</h2>
 
-    <p>第1条 定義<br>
-      1.「会員」とは、第3条に従い会員登録を行った利用者を意味します。<br>
-      2.「本サイト」とは、当社が運営するECサイト「オートミールクッキーFruOats」(https://shop.fruoats.jp/)を意味します。<br>
-      3.「本商品」とは、本サイトにおいて当社が販売する「FruOats」その他商品を意味します。<br>
-      4.「利用者」とは、会員その他本サービスを利用する一切の者を意味します。</p>
+    <p>Article 1 Definitions<br>
+      1. "Member" means a user who has registered as a member in accordance with Article 3. <br>
+      2. "This site" means the EC site "Oatmeal Cookie FruEats" operated by the Company. <br>
+      3. "Product" means "FruOats" and other products sold by the Company on this site. <br>
+      4. "User" means a member or any other person who uses this service. </p>
 
-    <h2>第2条 本利用規約の適用及び変更</h2>
+    <h2>Article 2 Application and Modification of these Terms of Use</h2>
 
-    <p>1.本利用規約は、当社と利用者との間の、本サービスの利用に関する一切の関係に適用されます。本サービスをご利用になる場合、本利用規約に同意する必要があります。<br>
-      2.当社は、次の何れかに該当する場合、当社の裁量により本利用規約を変更することができます。<br>
-      (1)本利用規約の変更が、利用者の一般の利益に適合する場合<br>
-      (2)本利用規約の変更が、契約をした目的に反せず、変更に係る事情に照らして合理的なものである場合<br>
-      3.当社は、本利用規約の変更にあたり、本利用規約を変更する旨及び変更後の本利用規約の内容並びにその効力発生日を、本サイトへの掲示その他当社が別途定める方法により、利用者に対して予め通知します。<br>
-      4.本利用規約の全部又は一部が変更された場合、本サービスの利用に関して、変更後の本利用規約のみが利用者及び当社に適用されるものとし、利用者及び当社は変更後の本利用規約のみに従うものとします。</p>
-
-
-    <h2>第3条 会員登録</h2>
-    <p>1.利用者は、本サイトにおける本商品の購入やその他本サービスの提供を受けることを目的として、当社所定の手続に従い、当社が指定する情報を登録することで会員登録を行うことができます。<br>
-      2.当社は、会員登録の申請者が、次の何れかに該当する場合には、その会員登録を拒否することがあります。<br>
-      (1)登録事項の全部又は一部につき虚偽、誤記又は記載漏れがあった場合<br>
-      (2)未成年者、成年被後見人、被保佐人又は被補助人のいずれかであり、法定代理人、後見人、保佐人又は補助人の同意等を得ていなかった場合<br>
-      (3)第18条(反社会的勢力の排除)に掲げる事項に反する事実があると当社が判断した 場合<br>
-      (4)過去に本利用規約又はその他当社との契約に違反した事実が判明した場合<br>
-      (5)その他当社が合理的な根拠に基づき登録を適当でないと合理的に判断した場合<br>
-      3.会員は、登録事項に変更があった場合、当社所定の手続に従い、当該変更事項を遅滞なく当社に通知するものとします。</p>
+    <p>1.These Terms of Use apply to all relationships between the Company and users regarding the use of this service.
+      In order to use this service, you must agree to these Terms of Use. <br>
+      2. The Company may change these Terms of Use at its discretion if any of the following apply. <br>
+      (1) When the modification of these Terms of Use conforms to the general interests of users<br>
+      (2) If the modification of these Terms of Use does not contravene the purpose of the contract and is reasonable in
+      light of the circumstances pertaining to the modification<br>
+      3. When changing the Terms of Use, the Company will notify users of the fact that the Terms of Use will be
+      changed, the contents of the Terms of Use after the change, and the effective date thereof, by posting on the Site
+      or by other methods separately determined by the Company. will notify you in advance. <br>
+      4. If all or part of these Terms of Use are changed, only the changed Terms of Use shall apply to the user and the
+      Company regarding the use of the Service, and the user and the Company shall agree to the changed Terms of Use.
+      Subject to terms and conditions only. </p>
 
 
-    <h2>第4条 退会・会員登録の抹消</h2>
-    <p>1.会員が退会を希望する場合には、当社所定の手続に従い、会員自ら退会の届出を当社に対して行うものとします。会員は、当社が会員からの退会届出を受領した時点で会員資格を喪失するものとします。<br>
-      2.当社は、会員が次の何れかに該当する場合、事前に通知することなく会員資格の一時停止又は抹消を行うことができます。<br>
-      (1)第3条第2項各号に定める事項の何れかに該当することが判明した場合<br>
-      (2)第7条第1項各号に定める事項の何れかに該当することが判明した場合<br>
-      (3)最終ログインから1年間が経過した場合<br>
-      3.当社は、前項に従った会員資格の停止又は抹消に起因又は関連して、会員又は第三者に生じた損害、損失、費用その他不利益(以下「損害等」といいます)については、当社の責めに帰すべき事由による場合を除き、損害賠償、補償、補填その他の責任を負いません。
+    <h2>Article 3 Member Registration</h2>
+    <p>1. The user shall register as a member by registering the information specified by the Company in accordance with
+      the procedures prescribed by the Company for the purpose of purchasing the Product or receiving the provision of
+      the Service on the Site. I can. <br>
+      2. The Company may refuse membership registration if the applicant for membership registration falls under any of
+      the following. <br>
+      (1) If there is a falsehood, error, or omission in all or part of the registered items<br>
+      (2) If you are a minor, an adult ward, a person under curatorship, or a person under assistance, and you have not
+      obtained the consent of a legal representative, guardian, curator, or assistant<br>
+      (3) When the Company determines that there is a fact contrary to the matters listed in Article 18 (Exclusion of
+      Antisocial Forces)<br>
+      (4) If it turns out that you have violated these Terms of Use or other agreements with us in the past<br>
+      (5) Other cases where the Company reasonably determines that registration is not appropriate based on reasonable
+      grounds<br>
+      3. If there is any change in the registered items, the member shall notify the Company of the change without delay
+      in accordance with the procedures prescribed by the Company. </p>
+
+
+    <h2>Article 4 Withdrawal/Cancellation of membership</h2>
+    <p>1.If a member wishes to withdraw from the membership, the member shall notify the Company of his/her own
+      withdrawal in accordance with the procedures prescribed by the Company. Members shall lose their membership at the
+      time the Company receives a notice of withdrawal from the Member. <br>
+      2. The Company may suspend or cancel membership without prior notice if a member falls under any of the following.
+      <br>
+      (1) If it is found that any of the matters specified in each item of Article 3, Paragraph 2 are met<br>
+      (2) When it is found that any of the matters specified in each item of Article 7, Paragraph 1 are applicable<br>
+      (3) When one year has passed since the last login<br>
+      3. The Company shall not be liable for any damages, losses, expenses or other disadvantages (hereinafter referred
+      to as "damages") incurred by the member or a third party due to or related to the suspension or cancellation of
+      membership in accordance with the preceding paragraph. , We will not be liable for damages, compensation,
+      compensation, or any other liability, except for reasons attributable to our company.
     </p>
 
 
-    <h2>第5条 パスワード及びIDの管理</h2>
+    <h2>Article 5 Password and ID Management</h2>
     <p>
-      1.会員は、自己の責任において、本サービスに関するパスワード及びIDを適切に管理及び保管するものとします。<br>
-      2.会員は、自身のパスワード及びIDについて、第三者に使用させ、第三者と共有し、又は第三者に対して譲渡、売買、貸与、担保としての供与等を行うことはできないものとします。<br>
-      3.会員が本サービスを利用するにあたって入力したパスワード及びIDが、登録された情報と一致することが当社所定の方法により確認された場合、当社は、会員による利用があったものとみなします。なお、当該方法により確認された利用が盗用、不正使用その他の事情により会員以外の者によるものである場合であっても、当社は、これにより会員又は第三者に生じた損害等について一切責任を負いません。
+      1.Members shall properly manage and store passwords and IDs related to this service at their own responsibility.
+      <br>
+      2.Members may not allow third parties to use their own passwords and IDs, share them with third parties, or
+      transfer, sell, lend, or provide them as collateral to third parties. will do. <br>
+      3. If it is confirmed by the method prescribed by the Company that the password and ID entered by the member when
+      using this service match the registered information, the Company will consider that the member has used the
+      service. In addition, even if the use confirmed by this method is by a person other than the member due to theft,
+      unauthorized use, or other circumstances, the Company shall not be liable for any damage, etc. caused to the
+      member or a third party due to this. We do not owe.
     </p>
 
 
-    <h2>第6条 本商品の購入・支払い等</h2>
-    <p>1.利用者は、本利用規約に基づき本商品を購入し、又はその他の本サービスを利用することができます。<br>
-      2.利用者が、本サイトにおいて必要事項を入力のうえ本商品の注文を行い、その後当社から当該注文内容が確定した旨を通知するメールが利用者に到達した時点で、利用者と当社との間に本商品に関する売買契約が成立します。<br>
-      3.利用者が、未成年者、成年被後見人、被保佐人又は被補助人のいずれかである場合、法定代理人、後見人、保佐人又は補助人の同意等を得て本商品の注文を行うものとします。<br>
-      4.利用者は、本商品の注文時に本サイト上に表記される本商品の価格(消費税を含みます)及び送料の合計金額を、当社が指定する方法により、当社が指定する支払期日までに支払 うものとします。</p>
+    <h2>Article 6 Purchase and payment of this product</h2>
+    <p> 1. Users can purchase this product or use other services based on these Terms of Use. <br>
+      2. When the user enters the necessary information on this site and places an order for this product, and after
+      that, when the user receives an email notifying that the order has been confirmed from our company, the user and
+      our company A sales contract for this product will be concluded between <br>
+      3. If the user is a minor, an adult ward, a person under curatorship, or a person under assistance, use of this
+      product with the consent of the legal representative, guardian, curator or assistant shall place an order. <br>
+      4. The User shall pay the total amount of the price of the Product (including consumption tax) and the shipping
+      fee indicated on the Site when ordering the Product by the payment date specified by the Company by the method
+      specified by the Company. shall pay to </p>
 
 
-    <h2>第7条 本商品の売買契約の解除等</h2>
+    <h2>Article 7 Cancellation of sales contract for this product</h2>
     <p>
-      1.当社は、利用者が以下の各号の一に該当することが判明した場合、何らの催告又は通知を要することなく、当該利用者による本商品の注文を受諾せず、当該利用者との本商品の売買契約を解除し、又はその他本サービスの利用の停止をすることができるものとします。<br>
-      (1)本商品の注文時における入力事項の全部又は一部につき虚偽、誤記又は記載漏れがあった場合<br>
-      (2)本商品その他本サービスに関する代金支払の遅延その他債務不履行があった場合<br>
-      (3)本商品その他本サービスに関する代金について、当社が指定する方法による決済が できない場合<br>
-      (4)本商品の代金の支払いについて、クレジットカードの不正利用を行った場合、又はその疑いがあると合理的に認められる場合<br>
-      (5)本商品の注文、購入その他本サービスの利用について当社からの問い合わせに回答 せず、又は連絡が取れない場合<br>
-      (6)宛所不明、不在、受取り拒否等により本商品を配送することができない場合<br>
-      (7)差押え、仮差押え、仮処分、強制執行、破産手続開始、民事再生手続開始の申立てがあった場合<br>
-      (8)未成年者、成年被後見人、被保佐人又は被補助人のいずれかであり、法定代理人、後見人、保佐人又は補助人の同意等を得ずに本商品の注文を行った場合<br>
-      (9)第18条(反社会的勢力の排除)に掲げる事項に反する事実があると当社が判断した場合<br>
-      (10)第11条に定める禁止行為に該当する行為を行った場合<br>
-      (11)本利用規約及びその他の当社が定める規約に違反した場合<br>
-      (12)その他当社が合理的な根拠に基づき本商品の注文、購入その他サービスの利用を不適当と合理的に判断した場合<br>
-      2.当社は、前項に従った注文の受諾拒否、売買契約の解除その他本サービスの利用の停止に起因又は関連して、利用者又は第三者に生じた損害等については、当社の責めに帰すべき事由による場合を除き、損害賠償、補償、補填その他の責任を負いません。
+      1. If it turns out that the user falls under any of the following items, the Company will not accept the order for
+      this product by the user without any demand or notice, may cancel the sales contract for this product or otherwise
+      suspend the use of this service. <br>
+      (1) When there is a falsehood, an error, or an omission in all or part of the items entered when ordering this
+      product<br>
+      (2) When there is a delay in payment of the price for this product or this service or other defaults<br>
+      (3) If the payment for the product or other services cannot be settled by the method specified by the Company<br>
+      (4) In case of fraudulent use of credit card for payment of the price of this product, or in case of reasonable
+      suspicion of such use<br>
+      (5) Failure to respond to inquiries from the Company regarding the ordering or purchase of the Product or use of
+      the Service, or if the User is unable to contact the Company<br>
+      (6) If the product cannot be delivered due to unknown address, absence, refusal to receive, etc.<br>
+      (7) When there is a petition for seizure, provisional seizure, provisional disposition, compulsory execution,
+      bankruptcy proceedings, or civil rehabilitation proceedings<br>
+      (8) Being a minor, an adult ward, a person under curatorship or a person under assistance, and placing an order
+      for this product without obtaining the consent of a legal representative, guardian, curator or assistant. If<br>
+      (9) When the Company determines that there is a fact contrary to the matters listed in Article 18 (Exclusion of
+      Antisocial Forces)<br>
+      (10) In the case of performing an act that falls under the prohibited acts stipulated in Article 11<br>
+      (11) Violation of these Terms of Use and other terms established by the Company<br>
+      (12) If the Company reasonably determines that the order, purchase, or other use of the Service is inappropriate
+      based on reasonable grounds<br>
+      2. The Company shall not be liable for any damages incurred by the User or a third party due to or related to the
+      refusal to accept the order, cancellation of the sales contract, or suspension of use of the Service pursuant to
+      the preceding paragraph. We are not responsible for damages, compensation, compensation, or any other liability,
+      except for cases attributable to us.
     </p>
 
 
-    <h2>第8条 本商品の配送</h2>
+    <h2>Article 8 Delivery of the Product</h2>
     <p>
-      1.本サービスにおける本商品の配送先は、日本国内かつ当社が定める配送可能地域に限るものとします。<br>
-      2.当社は、本商品の売買契約が成立した後、本商品を配送いたします。本商品の配送にあたっては、当社が選定する配送会社の責任において利用者に配送を行いますので、配送にかかる事項は当該配送会社が定める約款に従います。<br>
-      3.本サイト又は当社が通知する本商品の納期や到着予定日等は、目安であり、当該日程での配送を必ずしも保証するものではありません。利用者は、注文のタイミング、在庫状況、出荷元又は配送会社の都合その他の理由により、当該納期や到着予定日等が実際の状況と異なり得ることを予め了承するものとします。<br>
-      4.宛所不明、不在、受取り拒否等の事由により、本商品を配送することができなかった場合には、利用者が当該本商品を当社に対して無償譲渡したものとみなし、当社は、当該本商品を破棄しその他必要な措置を行うことができます。<br>
-      5.当社が配送会社に本商品を引き渡した後、配送会社やその他第三者の帰責事由により、又は天変地異等の不可抗力により、本商品の配送が遅延し又は配送が不可能になった場合、当社は、当社の責めに帰すべき事由による場合を除き、損害賠償、補償、補填その他一切の責任を負いません。
+      1. The delivery destination of the Products in the Service shall be limited to the delivery areas within Japan
+      determined by the Company. <br>
+      2. The Company will deliver the Product after the sales contract for the Product has been concluded. In the
+      delivery of this product, the delivery company selected by us will be responsible for delivering it to the user,
+      so the matters related to delivery will comply with the terms and conditions stipulated by the delivery company.
+      <br>
+      3. The delivery date and estimated arrival date of the Product notified by the Site or by the Company are
+      estimates, and do not necessarily guarantee delivery on that schedule. The user acknowledges in advance that the
+      delivery date, estimated arrival date, etc. may differ from the actual situation due to the timing of the order,
+      inventory status, convenience of the shipping source or shipping company, and other reasons. <br>
+      4. If the product cannot be delivered due to unknown address, absence, refusal to receive, etc., it will be deemed
+      that the user has transferred the product to the company free of charge, and the company will You may discard the
+      Product and take other necessary measures. <br>
+      5. After the Company delivers the Product to the delivery company, delivery of the Product is delayed or becomes
+      impossible due to reasons attributable to the delivery company or a third party, or due to force majeure such as
+      natural disasters. In such cases, the Company shall not be liable for damages, compensation, compensation, or any
+      other liability, except for cases attributable to the Company.
     </p>
 
 
-    <h2>第9条 本商品の返品・交換・キャンセル</h2>
+    <h2>Article 9 Returns, exchanges and cancellations of this product</h2>
     <p>
-      1.利用者は、本商品の種類又は品質について契約内容と適合しない事由(以下「契約不適合」といいます)がある場合を除き、返品・交換・キャンセル等を請求することはできません。<br>
-      2.利用者は、配送された本商品に契約不適合があった場合には、当社が定める方法により、本商品を受領した日から5日以内に当社に申し出るものとします。<br>
-      3.当社は、前項に基づく申し出を受け本商品に契約不適合があったと認めた場合には、当社が定める方法により、本商品の交換、代替商品の配送又は返金を行うものとします。この場合、本商品の交換、代替商品の配送又は返金に関する送料その他手数料については当社が負担します。<br>
-      4.利用者の都合による本商品の受領の遅延、配送方法の変更(配送会社への再配達依頼、宅配ボックスへの配達を含みますが、これに限られません)その他利用者の責めに帰すべき事由に起因する本商品の品質の劣化は、契約不適合にはあたらないものとし、当社は一切の責任を負わないものとします。
+      1. The user cannot request a return, exchange, cancellation, etc., unless there is a reason that the type or
+      quality of this product does not conform to the contract content (hereinafter referred to as "contract
+      nonconformity"). <br>
+      2. If the product delivered does not conform to the contract, the user shall notify the company within 5 days from
+      the date of receipt of the product by the method specified by the company. <br>
+      3. If the Company receives a request based on the preceding paragraph and recognizes that the Product does not
+      conform to the contract, the Company shall exchange the Product, deliver a substitute product, or refund the
+      Product in accordance with the method specified by the Company. In this case, we will bear the shipping and other
+      fees related to the exchange of this product, delivery of a substitute product, or refund. <br>
+      4. Delay in receipt of this product due to the user's convenience, change of delivery method (including but not
+      limited to requesting redelivery to the delivery company, delivery to the delivery box) and other responsibility
+      of the user Deterioration of the quality of this product due to reasons attributable to it shall not constitute
+      non-compliance with the contract, and the Company shall not assume any responsibility.
     </p>
 
 
-    <h2>第10条 ダイレクトメール等による情報提供</h2>
+    <h2>Article 10 Provision of information by direct mail, etc.</h2>
     <p>
-      利用者は、当社からメール、FAX、ダイレクトメール等の手段を用いて当社の商品又はサービスに関する情報等の情報提供が行なわれることについて、あらかじめ承諾するものとします。</p>
+      The user shall consent in advance to the provision of information such as information on the products or services
+      of the Company by means of e-mail, fax, direct mail, etc. from the Company. </p>
 
 
-    <h2>第11条 禁止行為</h2>
+    <h2>Article 11 Prohibited Activities</h2>
     <p>
-      利用者は、本サービスの利用に際し、以下の各号の一に該当する行為又はこれに該当すると当社が合理的な根拠に基づき判断する行為を行ってはならないものとします。<br>
-      (1)当社又は第三者の知的財産権、肖像権、パブリシティ権、名誉、プライバシー権その他一切の財産権若しくは人格権又は利益を侵害する行為<br>
-      (2)法令、条例、ガイドライン等に違反し又は公序良俗に反する行為<br>
-      (3)当社又は第三者を差別、脅迫、誹謗中傷し、又はその信用若しくは名誉を毀損する行為<br>
-      (4)当社又は第三者に迷惑、不利益又は損害等を与える行為<br>
-      (5)本サイト若しくは本サービス又はこれに関連する情報を不正に使用し又は使用させた場合<br>
-      (6)本サービスのシステム等に対してコンピュータウイルスその他有害なプログラムを含む情報を送信若しくは提供し又は当該行為を推奨する行為<br>
-      (7)本サービスのシステム等に対する不正アクセス、リバースエンジニアリングその他の解析行為<br>
-      (8)本サイト又は本サイトに掲載されたコンテンツ(文章、画像、動画、商標、ロゴ、ソフトウェア等を含みますが、これらに限定されません)を複製又はその他利用する行為<br>
-      (9)第三者へのなりすまし又は本サービスの他の利用者のパスワード及びIDを利用する行為<br>
-      (10)同一人が複数の会員登録をする行為<br>
-      (11)本サイト、本サービスその他当社の事業の運営を妨げる行為<br>
-      (12)本サービスの他の利用者の情報を収集する行為<br>
-      (13)転売、再販売、その他営利を目的として本商品を購入し又はその他本サービスを利用する行為<br>
-      (14)犯罪行為又は犯罪行為を助長若しくは暗示する行為<br>
-      (15)本利用規約その他当社の定める規約に反する行為<br>
-      (16)政治、プロモーション、宗教目的で本サービスを利用する行為(17)その他当社が合理的な根拠に基づき不適切と合理的に判断する行為</p>
-
+      When using this service, the user shall not perform any act that falls under any of the following items or any act
+      that the Company determines on reasonable grounds to fall under any of the following items. <br>
+      (1) Acts that infringe on intellectual property rights, portrait rights, publicity rights, honor, privacy rights,
+      or any other property rights or moral rights or interests of the Company or a third party<br>
+      (2) Acts that violate laws, ordinances, guidelines, etc. or are contrary to public order and morals<br>
+      (3) Acts that discriminate, threaten, slander, or damage the credibility or reputation of the Company or a third
+      party<br>
+      (4) Acts that cause nuisance, disadvantage or damage to the Company or a third party<br>
+      (5) Unauthorized use of this site, this service, or information related to this, or causing it to be used<br>
+      (6) Acts of sending or providing information containing computer viruses or other harmful programs to the system
+      of this service, or recommending such acts<br>
+      (7) Unauthorized access to the system of this service, reverse engineering or other analytical acts<br>
+      (8) Reproduction or other use of this site or content posted on this site (including, but not limited to, text,
+      images, videos, trademarks, logos, software, etc.)
+      (9) Acts of impersonating a third party or using passwords and IDs of other users of the Service<br>
+      (10) The act of registering multiple memberships by the same person<br>
+      (11) Acts that interfere with the operation of this site, this service or other business of our company<br>
+      (12)Acts of collecting information of other users of this service<br>
+      (13) Purchasing this product or using this service for the purpose of resale, resale, or any other commercial
+      purpose<br>
+      (14) Criminal acts or acts that encourage or imply criminal acts<br>
+      (15) Acts that violate these Terms of Use and other terms established by the Company<br>
+      (16) Acts of using the Service for political, promotional, or religious purposes (17) Other acts that the Company
+      reasonably determines to be inappropriate based on reasonable grounds</p>
   </div>
 
 </div>

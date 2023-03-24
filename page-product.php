@@ -6,7 +6,7 @@
 
       <div class="product-popup">
         <div class="popup-btn">
-          <a href="#">【Amazon Pay対応】 30秒で購入</a>
+          <a href="#">[Amazon Pay] Purchase in 30 seconds</a>
         </div>
       </div>
 
@@ -16,74 +16,24 @@
 
         <div class="product-main-left">
           <ul class="slide">
-            <li class="item"><img
-                src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/ec_assets/bfa9e89ad23cbb41c137e841932e1c30b492447d-large.jpg?1671818083"
-                alt="" /></li>
-            <li class="item"><img
-                src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/ec_assets/5e9b04c9c1ed1881b01a359cf5ce728381b3126b-large.jpg?1671818078"
-                alt="" /></li>
-            <li class="item"><img
-                src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/ec_assets/59546e12513094183bc55a4e9bc1b901a34105f1-large.jpg?1671818072"
-                alt="" /></li>
-            <li class="item"><img
-                src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/ec_assets/0533715791f0459be8743f659da098ce217649f1-large.jpg?1671818067"
-                alt="" /></li>
-            <li class="item"><img
-                src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/ec_assets/0978f330324bf850c561f0d06a5c96f0e7c5cb6c-large.jpg?1671818063"
-                alt="" /></li>
-            <li class="item"><img
-                src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/ec_assets/6875ff0113bea7ae358b99f9e08b691bb44ad6b7-large.jpg?1671818058"
-                alt="" /></li>
-            <li class="item"><img
-                src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/ec_assets/5d356fe766fcaee3d889542af4cb4a5d39885ca1-large.jpg?1671818053"
-                alt="" /></li>
-            <li class="item"><img
-                src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/ec_assets/77a732deb30c2e27085cafc07914fe069abff0e2-large.jpg?1671818049"
-                alt="" /></li>
-            <li class="item"><img
-                src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/ec_assets/71e9407ff1b68d7145c8b38c38061979fa556360-large.jpg?1671818037"
-                alt="" /></li>
-            <li class="item"><img
-                src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/ec_assets/7216ea1521adb4b87dec05f81fc8c08328ad1073-large.jpg?1671818027"
-                alt="" /></li>
+            <li class="item"><img src="<?php echo get_theme_file_uri(); ?>/img/product/Item1.jpg" alt="" /></li>
+            <li class="item"><img src="<?php echo get_theme_file_uri(); ?>/img/product/Item10.jpg" alt="" /></li>
+            <li class="item"><img src="<?php echo get_theme_file_uri(); ?>/img/product/Item11.jpg" alt="" /></li>
+            <li class="item"><img src="<?php echo get_theme_file_uri(); ?>/img/product/Item13.jpg" alt="" /></li>
+            <li class="item"><img src="<?php echo get_theme_file_uri(); ?>/img/product/Item14.jpg" alt="" /></li>
           </ul>
           <ul class="slide-navigation">
-            <li class="item"><img
-                src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/ec_assets/bfa9e89ad23cbb41c137e841932e1c30b492447d-large.jpg?1671818083"
-                alt="" /></li>
-            <li class="item"><img
-                src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/ec_assets/5e9b04c9c1ed1881b01a359cf5ce728381b3126b-large.jpg?1671818078"
-                alt="" /></li>
-            <li class="item"><img
-                src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/ec_assets/59546e12513094183bc55a4e9bc1b901a34105f1-large.jpg?1671818072"
-                alt="" /></li>
-            <li class="item"><img
-                src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/ec_assets/0533715791f0459be8743f659da098ce217649f1-large.jpg?1671818067"
-                alt="" /></li>
-            <li class="item"><img
-                src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/ec_assets/0978f330324bf850c561f0d06a5c96f0e7c5cb6c-large.jpg?1671818063"
-                alt="" /></li>
-            <li class="item"><img
-                src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/ec_assets/6875ff0113bea7ae358b99f9e08b691bb44ad6b7-large.jpg?1671818058"
-                alt="" /></li>
-            <li class="item"><img
-                src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/ec_assets/5d356fe766fcaee3d889542af4cb4a5d39885ca1-large.jpg?1671818053"
-                alt="" /></li>
-            <li class="item"><img
-                src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/ec_assets/77a732deb30c2e27085cafc07914fe069abff0e2-large.jpg?1671818049"
-                alt="" /></li>
-            <li class="item"><img
-                src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/ec_assets/71e9407ff1b68d7145c8b38c38061979fa556360-large.jpg?1671818037"
-                alt="" /></li>
-            <li class="item"><img
-                src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/ec_assets/7216ea1521adb4b87dec05f81fc8c08328ad1073-large.jpg?1671818027"
-                alt="" /></li>
+            <li class="item"><img src="<?php echo get_theme_file_uri(); ?>/img/product/Item1.jpg" alt="" /></li>
+            <li class="item"><img src="<?php echo get_theme_file_uri(); ?>/img/product/Item10.jpg" alt="" /></li>
+            <li class="item"><img src="<?php echo get_theme_file_uri(); ?>/img/product/Item11.jpg" alt="" /></li>
+            <li class="item"><img src="<?php echo get_theme_file_uri(); ?>/img/product/Item13.jpg" alt="" /></li>
+            <li class="item"><img src="<?php echo get_theme_file_uri(); ?>/img/product/Item14.jpg" alt="" /></li>
           </ul>
         </div>
 
         <div class="product-main-right">
-          <h2>オートミールクッキー『FruOats（フルオーツ）』5種セット 30枚入り</h2>
-          <h3>★★★★★ <a href="">163レビュー</a></h3>
+          <h2>オートミールクッキー『FruOats（フルオーツ）』5種セット 30個入り</h2>
+          <h3>★★★★★ <a href="">163 reviews</a></h3>
 
           <form class="form">
 
@@ -91,7 +41,7 @@
             <div class="inputGroup">
               <input id="radio1" name="radio" type="radio" checked>
               <label for="radio1">
-                <div class="radio-top">通常の購入<h4>¥2,960<span>税込</span></h4>
+                <div class="radio-top">normal purchase<h4>$29<span>tax included</span></h4>
                 </div>
               </label>
             </div>
@@ -99,108 +49,120 @@
               <input id="radio2" name="radio" type="radio" />
               <label for="radio2">
                 <div class="radio-top">
-                  定期購入10%OFF <h4>¥2,960<span>税込</span></h4>
+                  purchase 10% OFF <h4>$29<span>tax included</span></h4>
                 </div>
                 <div class="radio-bottom">
                   <p>
-                    継続回数のお約束はございません。マイページより一時停止や配送日の変更など、自由に変更可能です。
+                    There is no promise of the number of continuations. You can freely change such as temporary
+                    suspension or change of delivery date from My Page.
                   </p>
                 </div>
               </label>
             </div>
 
             <div class="form-btn">
-              <a href="#">【Amazon Pay対応】 30秒で購入</a>
+              <a href="#">[Amazon Pay] Purchase in 30 seconds</a>
             </div>
           </form>
 
 
           <div class="product-main-text">
-            <h3>送料無料！当サイトでのご購入が最もお得です。</h3>
-            <p>＜内容＞5種フレーバー×各6枚<br>
-              ＜賞味期限＞発送日より約4週間~6週間<br>
-              ＜外箱サイズ＞310×226x高さ23 <br>
-              ＜包装＞1枚ずつ個包装<br>
-              ＜配送方法＞注文日の 翌々日まで（土日祝日を除く）にゆうパケットにて発送<br>
-              ※納品書や請求書は、同梱されません。<br>
-              ＜配送料＞送料無料<br>
-              ＜保存方法＞直射日光・高温多湿を避けて保存してください（夏場は、冷蔵or冷凍保存を推奨）</p>
+            <h3>free shipping! Buying on our site is the best deal.</h3>
+            <p>
+              <Contents> 5 flavors x 6 each<br>
+                <expiration date> about 4 to 6 weeks from the shipping date<br>
+                  <Outer box size> 310 x 226 x height 23 <br>
+                    <packaging> Individually wrapped one by one<br>
+                      <Delivery method> Shipped by Yu-Packet by the day after the order date (excluding weekends and
+                        holidays)<br>
+                        *A statement of delivery and an invoice are not included. <br>
+                        <delivery charge> free shipping<br>
+                          <Preservation method> Avoid direct sunlight, high temperature and humidity and store
+                            (recommended refrigeration or freezing in summer)
+            </p>
           </div>
 
           <ul class="accordion">
             <li>
-              <div class="menu">特定原材料・原材料<span class="icon"></span></div>
+              <div class="menu">Specified raw materials/ingredients<span class="icon"></span></div>
               <ul class="subMenu">
                 <li>
-                  <p>＜特定原材料＞<br>
-                    人工甘味料・保存料・小麦粉・バター・卵不使用<br>
+                  <p> <br>
+                    No artificial sweeteners, preservatives, flour, butter or eggs<br>
                     <br>
-                    ＜原材料＞<br>
-                    【ストロベリーピスタチオ】
-                    水溶性食物繊維（国内生産）、おからパウダー、ドライストロベリー、本和香糖（沖縄県産さとうきび）、米油、オートミール、ピスタチオ、アマニ、チアシード<br>
                     <br>
-                    【マンゴーココナッツ】<br>
-                    水溶性食物繊維（国内生産）、おからパウダー、ドライマンゴー、本和香糖（沖縄県産さとうきび）、米油、ココナッツ、オートミール、アマニ、チアシード<br>
+                    [Strawberry Pistachio]
+                    Soluble dietary fiber (produced in Japan), bean curd refuse powder, dried strawberry, Honwaka
+                    sugar (sugar cane produced in Okinawa), rice oil, oatmeal, pistachio, flaxseed, chia seed<br>
                     <br>
-                    【イチジクアーモンド】<br>
-                    水溶性食物繊維（国内生産）、おからパウダー、本和香糖（沖縄県産さとうきび）、ドライイチジク、米油、アーモンド、オートミール、アマニ、チアシード<br>
+                    [mango coconut]<br>
+                    Soluble dietary fiber (produced in Japan), bean curd refuse powder, dried mango, Honwaka sugar
+                    (sugar cane produced in Okinawa), rice oil, coconut, oatmeal, linseed, chia seed<br>
                     <br>
-                    【アップルシナモン】<br>
-                    水溶性食物繊維（国内生産）、おからパウダー、ドライアップル、本和香糖（沖縄県産さとうきび）、米油、オートミール、アマニ、シナモン、チアシード<br>
+                    [fig almond]<br>
+                    Soluble dietary fiber (produced in Japan), bean curd refuse powder, Honwaka sugar (sugar cane
+                    produced in Okinawa), dried figs, rice oil, almonds, oatmeal, linseed, chia seeds
                     <br>
-                    【オレンジチョコレート】<br>
-                    水溶性食物繊維（国内生産）、おからパウダー、本和香糖（沖縄県産さとうきび）、米油、有機チョコレート（有機砂糖、有機カカオマス、有機ココアバター）、オートミール、アマニ、オレンジゼスト、チアシード<br>
+                    [Apple cinnamon]<br>
+                    Soluble dietary fiber (produced in Japan), bean curd refuse powder, dried apple, Honwaka sugar
+                    (sugar cane produced in Okinawa), rice oil, oatmeal, linseed, cinnamon, chia seeds<br>
                     <br>
-                    ※有機チョコレートと同じ製造現場では、乳を含む製品を生産しています。<br>
-                    ※本品製造工場では、小麦を含む製品を生産しています。
+                    [orange chocolate]<br>
+                    Soluble dietary fiber (produced in Japan), bean curd refuse powder, Honwaka sugar (sugar cane
+                    from Okinawa), rice oil, organic chocolate (organic sugar, organic cacao mass, organic cocoa
+                    butter), oatmeal, flaxseed, orange zest, chia seeds >
+                    <br>
+                    *Products containing milk are produced in the same manufacturing site as organic chocolate. <br>
+                    *This product is manufactured in a factory that produces products that contain wheat.
+
                   </p>
                 </li>
               </ul>
             </li>
             <li>
-              <div class="menu">栄養成分表示(1枚あたり)<span class="icon"></span></div>
+              <div class="menu">Nutritional information (per peace)<span class="icon"></span></div>
               <ul class="subMenu">
                 <li>
                   <p>
-                    【ストロベリーピスタチオ】<br>
-                    エネルギー：52.1kcal<br>
-                    タンパク質：1.0g<br>
-                    脂質：2.5g<br>
-                    糖質：4.6g<br>
-                    食物繊維：3.7g<br>
-                    食塩相当量：0.0g<br>
+                    [Strawberry Pistachio]<br>
+                    Energy: 52.1 kcal<br>
+                    Protein: 1.0g<br>
+                    Fat: 2.5g<br>
+                    Sugar: 4.6g<br>
+                    Dietary fiber: 3.7g<br>
+                    Salt equivalent: 0.0g<br>
                     <br>
-                    【マンゴーココナッツ】<br>
-                    エネルギー：55.1kcal<br>
-                    タンパク質：0.9g<br>
-                    脂質：2.8g<br>
-                    糖質：4.7g<br>
-                    食物繊維：3.7g<br>
-                    食塩相当量：0.0g<br>
+                    [mango coconut]<br>
+                    Energy: 55.1 kcal<br>
+                    Protein: 0.9g<br>
+                    Fat: 2.8g<br>
+                    Sugar: 4.7g<br>
+                    Dietary fiber: 3.7g<br>
+                    Salt equivalent: 0.0g<br>
                     <br>
-                    【イチジクアーモンド】<br>
-                    エネルギー：56.3kcal<br>
-                    タンパク質：1.3g<br>
-                    脂質：3.0g<br>
-                    糖質：4.1g<br>
-                    食物繊維：3.8g<br>
-                    食塩相当量：0.0g<br>
+                    [fig almond]<br>
+                    Energy: 56.3 kcal<br>
+                    Protein: 1.3g<br>
+                    Fat: 3.0g<br>
+                    Sugar: 4.1g<br>
+                    Dietary fiber: 3.8g<br>
+                    Salt equivalent: 0.0g<br>
                     <br>
-                    【アップルシナモン】<br>
-                    エネルギー：50.3kcal<br>
-                    タンパク質：0.9g<br>
-                    脂質：2.2g<br>
-                    糖質：4.8g<br>
-                    食物繊維：3.5g<br>
-                    食塩相当量：0.0g<br>
+                    [Apple cinnamon]<br>
+                    Energy: 50.3 kcal<br>
+                    Protein: 0.9g<br>
+                    Fat: 2.2g<br>
+                    Sugar: 4.8g<br>
+                    Dietary fiber: 3.5g<br>
+                    Salt equivalent: 0.0g<br>
                     <br>
-                    【オレンジチョコレート】<br>
-                    エネルギー：50.4kcal<br>
-                    タンパク質：1.0g<br>
-                    脂質：2.7g<br>
-                    糖質：3.6g<br>
-                    食物繊維：4.1g<br>
-                    食塩相当量：0.0g
+                    [orange chocolate]<br>
+                    Energy: 50.4 kcal<br>
+                    Protein: 1.0g<br>
+                    Fat: 2.7g<br>
+                    Sugar: 3.6g<br>
+                    Dietary fiber: 4.1g<br>
+                    Salt equivalent: 0.0g
                   </p>
                 </li>
               </ul>
@@ -217,41 +179,42 @@
 
 
         <div class="product-sec-title">
-          <img src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.shared__logo.svg" alt="">
-          <h2>こだわりと美味しさの秘密</h2>
+          <img src="<?php echo get_theme_file_uri(); ?>/img/icons/FruEats-Logo2.svg" alt="">
+          <h2>The secret of commitment and deliciousness</h2>
         </div>
 
-        <img
-          src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/FruOats_HP2022083001_880x.webp?ver=20230127"
-          alt="">
+        <img src="<?php echo get_theme_file_uri(); ?>/img/bgimg/BGpic2.jpg" alt="">
 
         <div class="product-about-top">
-          <h3>ヴィーガン認証取得済！スーパーフードがぎゅっと詰まったクッキー</h3>
-          <p>オートミール、おからパウダー、チアシード、アマニ、ドライフルーツ、米油など、植物由来のスーパーフードを1枚のクッキーにぎゅっと詰め込みました。<br>
+          <h3>Vegan certified! Cookies packed with superfoods</h3>
+          <p>Oatmeal, okara powder, chia seeds, linseed, dried fruits, rice oil, and other plant-derived superfoods are
+            tightly packed into a single cookie. <br>
             <br>
-            お菓子の材料によく使われる卵やバター、小麦粉、白砂糖は使用していないため、ヴィーガンの方やグルテンアレルギーの方にも安心してお楽しみいただけます。<br>
-            また、市販の商品によく使われる、人工甘味料や保存料も使用しておりません。
+            We do not use eggs, butter, flour, or white sugar, which are often used in sweets, so vegans and people with
+            gluten allergies can enjoy it without worry. <br>
+            In addition, we do not use artificial sweeteners or preservatives that are often used in commercial
+            products.
           </p>
         </div>
 
         <div class="product-about-bottom">
           <ul>
             <li>
-              <img
-                src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.product__feature_2_880x.webp?ver=20230127"
-                alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/img/article/CookieSmall.png" alt="">
             </li>
             <li>
               <article>
-                <h3>カロリー・糖質オフ！食物繊維は約18.5倍！</h3>
-                <p>通常のクッキーと比べて栄養価は一目瞭然！低糖質で食物繊維がたっぷりなので、健康を気にしている方でもおやつ時間を楽しむことができます。<br>
+                <h3>Calories and sugar off! Dietary fiber is about 18.5 times!</h3>
+                <p>The nutritional value is obvious at a glance compared to normal cookies! It is low in sugar and rich
+                  in dietary fiber, so even those who are concerned about their health can enjoy their snack time. <br>
                   <br>
-                  ・カロリーは約30%OFF<br>
-                  ・糖質は約51%OFF<br>
-                  ・脂質は約34%OFF<br>
-                  ・食物繊維約18.5倍
+                  ・About 30% off calories<br>
+                  ・Sugar is about 51% OFF<br>
+                  ・Approx. 34% off lipids<br>
+                  ・Approximately 18.5 times more dietary fiber
                 </p>
-                <span>※日本食品標準成分表2015年版（七訂）より、ソフトビスケットとの比較（同量）</span>
+                <span>* Comparison with soft biscuits (same amount) from the 2015 Standard Tables of Food Composition in
+                  Japan (7th revision)</span>
               </article>
             </li>
           </ul>
@@ -259,51 +222,50 @@
           <ul>
             <li>
               <article>
-                <h3>3枚で1日に必要な食物繊維の1/2が摂れる！</h3>
-                <p>ほとんどの日本人が食物繊維不足で、20代~30代の男女で平均約6g不足しています。フルオーツならたった3枚(45g)で、1日に必要な食物繊維の1/2が摂れます。これは、バナナ9~10本相当分です。
-                </p>
+                <h3>You can get 1/2 of the dietary fiber you need in a day with 3 pieces!</h3>
+                <p>Most Japanese people lack dietary fiber, and men and women in their 20s and 30s are short of about 6g
+                  on average. With just 3 pieces (45g) of fruit oats, you can get half of the dietary fiber you need for
+                  the day. This is equivalent to 9-10 bananas.</p>
               </article>
             </li>
             <li>
-              <img
-                src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.product__feature_3_880x.webp?ver=20230127"
-                alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/img/article/ChocolateCmall.png" alt="">
             </li>
           </ul>
 
           <ul>
             <li>
-              <img
-                src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.product__feature_5_880x.webp?ver=20230127"
-                alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/img/article/StrawberrySmall.png" alt="">
             </li>
             <li>
               <article>
-                <h3>ザクザク食感！アレンジしても美味しい</h3>
-                <p>卵やバター、小麦粉を使っていないため、オートミールとおからパウダー特有のザクザク食感を楽しめます。<br>
-                  <br>
-                  ドライフルーツの自然な甘みがあり、プレーン味の食品に合わせやすいです。<br>
-                  朝ごはんはオーツミルクや豆乳にひたしたり、豆乳ヨーグルトにトッピングして食べるのもおすすめ。おやつタイムはコーヒーや紅茶と合わせても美味しいです。
-                </p>
-              </article>
-            </li>
-          </ul>
-
-          <ul>
-            <li>
-              <article>
-                <h3>カフェの聖地「清澄白河」で作っています！
+                <h3>Made in Kiyosumi Shirakawa, the mecca of cafes!
                 </h3>
-                <p>清澄白河のシェアオフィス内にあるカフェ「Kraft Coffee」で、フルオーツを開発しました。昭文社の「東京ベストカフェ」（2021年9月14日発行）にも掲載されたカフェです。<br>
+                <p>We developed Fluoats at the cafe "Kraft Coffee" in the shared office in Kiyosumi Shirakawa. This cafe
+                  was also featured in Shobunsha's "Tokyo Best Cafe" (published on September 14, 2021). <br>
                   <br>
-                  2022年3月には、FruOatsの工場兼直売店の「FruOats FACTORY」を清澄白河にオープンさせ、製造・管理・販売まで全てを「FruOats FACTORY」で行っています。
+                  In March 2022, the FruEats factory and direct sales store “FruOats FACTORY” will be opened in Kiyosumi
+                  Shirakawa, and everything from manufacturing, management and sales is done at “FruEats FACTORY”.
+                </p>
+              </article>
+            </li>
+          </ul>
+
+          <ul>
+            <li>
+              <article>
+                <h3>Crunchy texture! It is delicious even if I arrange it</h3>
+                <p>Since no eggs, butter, or flour is used, you can enjoy the crunchy texture that is unique to oatmeal
+                  and okara powder. <br>
+                  <br>
+                  It has the natural sweetness of dried fruit and goes well with plain foods. <br>
+                  For breakfast, we recommend soaking it in oat milk or soy milk, or topping it with soy milk yogurt.
+                  Snack time is also delicious with coffee or tea.
                 </p>
               </article>
             </li>
             <li>
-              <img
-                src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/fruoats_factory_880x.webp?ver=20230127"
-                alt="">
+              <img src="<?php echo get_theme_file_uri(); ?>/img/bgimg/STOCKER1202100_TP_V.jpg" alt="">
             </li>
           </ul>
 
@@ -314,12 +276,12 @@
 
       <section class="product-customer">
         <div class="product-customer-title">
-          <h2>カスタマーレビュー</h2>
+          <h2>customer review</h2>
         </div>
 
         <div class="product-review">
           <p>★★★★★</p>
-          <span>163件のレビュー</span>
+          <span>163 reviews</span>
 
         </div>
 
@@ -371,15 +333,15 @@
 
             <div class="review-selecter">
               <select name="">
-                <option value="">最新</option>
-                <option value="">高評価</option>
-                <option value="">低評価</option>
+                <option value="">latest</option>
+                <option value="">Highly rated</option>
+                <option value="">low rating</option>
               </select>
             </div>
           </div>
 
           <div class="product-customer-right">
-            <a href="#">レビューを書く</a>
+            <a href="#">Write a review</a>
           </div>
         </div>
 
@@ -388,42 +350,43 @@
           <ul>
             <li>
               <div class="customer-person">
-                <div class="icon">清</div>
+                <div class="icon">K</div>
                 <ul>
                   <li>
-                    <h3>★★★★★</h3><span>2022-12-22</span>
+                    <h3>★★★★★</h3><span>22-12-2022</span>
                   </li>
                   <li>
-                    <h4>清野</h4>
+                    <h4>Kiyono</h4>
                   </li>
                 </ul>
               </div>
 
-              <h2>めちゃくちゃ美味しい！</h2>
+              <h2>It's so delicious!</h2>
               <p>
-                侮っておりました。どうせ他のよく似たクッキーと同じやろって。とんでもない！。今まで食べた普通の含むあらゆるクッキーの中で一番美味しいです！。今のところこのクッキーだけで大満足してます。リピート決定。いや〜、今年一番の当たりでした。他のも買ってみようと思います。
-              </p>
+                I despised you. Just like any other similar cookie. no way! . The most delicious cookies I have ever
+                eaten, including regular ones! . So far I am very happy with this cookie. decision to repeat. No ~, it
+                was the best hit of the year. I would like to buy another one.</p>
             </li>
 
 
             <li>
               <div class="customer-person">
-                <div class="icon">と</div>
+                <div class="icon">T</div>
                 <ul>
                   <li>
-                    <h3>★★★★★</h3><span>2022-11-28
+                    <h3>★★★★★</h3><span>28-11-2022
                     </span>
                   </li>
                   <li>
-                    <h4>とり</h4>
+                    <h4>Tomi</h4>
                   </li>
                 </ul>
               </div>
 
-              <h2>美味しいです！</h2>
+              <h2>It's delicious！</h2>
               <p>
-                かたさも味も好きです。罪悪感無く食べられます！5種の味の定期購入にしているのですが、トマト味とプレーンも購入したいです。
-
+                I like the firmness and the taste. You can eat without feeling guilty! I have a regular purchase of 5
+                flavors, but I would like to purchase the tomato flavor and the plain one as well.
               </p>
             </li>
 
@@ -436,15 +399,16 @@
                     <h3>★★★★★</h3><span>2022-11-28</span>
                   </li>
                   <li>
-                    <h4>moonget</h4>
+                    <h4>mornget</h4>
                   </li>
                 </ul>
               </div>
 
-              <h2>おすすめします♪
+              <h2>Recommended♪
               </h2>
               <p>
-                固さも噛みごたえ良く、甘さも丁度良くとてもヘルシーな焼き菓子と感じました。美味しいです♪
+                I felt that it was a very healthy baked confectionery with a good hardness and a good sweetness. It's
+                delicious♪
 
               </p>
             </li>
@@ -462,75 +426,77 @@
 
       <section class="product-feature">
         <div class="product-sec-title2">
-          <h2>＼ 各専門家が監修 ／</h2>
+          <h2>＼ Supervised by each expert ／</h2>
         </div>
 
         <div class="product-feature-visual">
-          <img
-            src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.product__feature_7_880x.webp?ver=20230127"
-            alt="">
+          <img src="<?php echo get_theme_file_uri(); ?>/img/bgimg/BGpic2.jpg" alt="">
 
-          <h3>お菓子の世界大会日本代表の中山シェフ監修</h3>
-          <h4>美味しく食べていただくために、3度もお菓子の世界大会で日本代表として選ばれている中山 和大シェフに監修していただきました。<br>
-            3枚で10gの食物繊維を配合するため、小麦粉や米粉の代わりにおからとオートミールを使用。独自の配合と焼き方でザクザクとした食感を実現しています。美味しいだけじゃない、毎日食べて食物繊維をプラスできる新しいお菓子をぜひお楽しみください。
-          </h4>
-          <span>中山 和大シェフ</span>
-          <h5>主な受賞経歴</h5>
+          <h3>Supervised by Chef Nakayama, representative of Japan in the world confectionery competition</h3>
+          <h4>To ensure that you can eat deliciously, we asked Chef Kazuhiro Nakayama, who has been selected as a
+            representative of Japan three times at the world confectionery competition, to supervise. <br>
+            In order to combine 10g of dietary fiber with 3 pieces, okara and oatmeal are used instead of wheat flour
+            and rice flour. It has a crunchy texture with a unique combination and baking method. Please enjoy new
+            sweets that are not only delicious, but can be eaten every day to add dietary fiber.</h4>
+          <span>Chef Kazushiro Nakayama</span>
+          <h5>Major award history</h5>
 
           <dl>
-            <dt>2007年</dt>
-            <dd>ジャパンケーキショー東京2007 大型工芸菓子部門　金賞</dd>
+            <dt>2007</dt>
+            <dd>Japan Cake Show Tokyo 2007 Large Craft Confectionery Category Gold Award</dd>
             <dl>
-              <dt>2008年</dt>
-              <dd>クープ・デュ・モンド・ドゥ・ラ・パティスリー2009 日本予選決勝大会<br>
-                アントルメ・ショコラと飴細工のピエスモンテ部門　準優勝<br>
-                ジャパン・ケーキショー東京2008<br>
-                トップオブパティシエ 飴細工のピエスモンテ＆アントルメ部門　優勝<br>
-                アジア・ペストリー・チーム・コンテスト　優勝</dd>
+              <dt>2008</dt>
+              <dd>Coupe du Monde de la Patisserie 2009 Japan Preliminary Finals<br>
+                Entrumé Chocolat and Amezaiku Piesmonte Category Runner-up<br>
+                Japan Cake Show Tokyo 2008<br>
+                Top of Patissier Amezaiku no Piesmonte & Entrumé Category Winner<br>
+                Asia Pastry Team Contest Winner</dd>
             </dl>
             <dl>
-              <dt>2010年</dt>
-              <dd>クープ・デュ・モンド・ドゥ・ラ・パティスリー2011 日本予選決勝大会
-                アントルメ・ショコラと飴細工のピエスモンテ部門　優勝</dd>
+              <dt>2010</dt>
+              <dd>Coupe du Monde de la Patisserie 2011 Japan Preliminary Finals
+                Entrumé Chocolat and Amezaiku Piesmonte Category Winner</dd>
             </dl>
 
             <dl>
-              <dt>2011年</dt>
-              <dd>クープ・デュ・モンド・ドゥ・ラ・パティスリー2011 日本代表　4位</dd>
+              <dt>2011</dt>
+              <dd>Coupe du Monde de la Patisserie 2011 Japan representative 4th place</dd>
             </dl>
             <dl>
-              <dt>2014年</dt>
+              <dt>2014</dt>
               <dd>
-                クープ・デュ・モンド・ドゥ・ラ・パティスリー2015 国内選考会<br>
-                アントルメ・ショコラ／アメ細工A部門　優勝</dd>
+                Coupe du Monde de la Patisserie 2015 domestic selection<br>
+                Entrumé Chocolat/Amezaiku Category A Winner</dd>
             </dl>
             <dl>
-              <dt>2015年</dt>
-              <dd>クープ・デュ・モンド・ドゥ・ラ・パティスリー2015 日本代表　準優勝</dd>
+              <dt>2015</dt>
+              <dd>Coupe du Monde de la Patisserie 2015 Japan National Team Runner-up</dd>
             </dl>
             <dl>
-              <dt>2021年</dt>
-              <dd>ワールド トロフィー オブ ペストリー アイスクリーム チョコレート2021 チームJAPAN　優勝</dd>
+              <dt>2021</dt>
+              <dd>World Trophy of Pastry Ice Cream Chocolate 2021 Team JAPAN Winner</dd>
             </dl>
             <dl>
-              <dt>資格</dt>
+              <dt>Qualifications</dt>
               <dd>
-                日本ソムリエ協会（J.S.A.）ソムリエ、SAKE DIPLOMA（日本酒ソムリエ）取得</dd>
+                Japan Sommelier Association (J.S.A.) sommelier, SAKE DIPLOMA (sake sommelier) acquired</dd>
 
             </dl>
         </div>
 
         <div class="product-feature-bottom">
           <div class="product-feature-bottom-left">
-            <h3>管理栄養士もおすすめ！</h3>
-            <p>食物繊維を摂取することで、腸内環境が整い、肌がきれいになったり、ダイエットにつながったりなど嬉しい効果が期待できます。また、噛む回数が増えることで満足感が高まり、食べ過ぎ予防に役立ちます。
-              野菜で1日に必要な食物繊維を全て補うことは、忙しい方には難しいと思います。フルオーツはおいしく食物繊維を手軽に摂りたい方に是非おすすめしたいクッキーです。</p>
-            <span>管理栄養士 柳ゆきな</span>
+            <h3>Management dietitian recommended!</h3>
+            <p>By ingesting dietary fiber, you can expect happy effects such as improving the intestinal environment,
+              making your skin cleaner, and leading to a diet. Also, chewing more often increases satisfaction and helps
+              prevent overeating.
+              I think that it is difficult for busy people to supplement all the dietary fiber necessary for a day with
+              vegetables. Full Oats is a delicious cookie that I would definitely recommend to anyone who wants to take
+              in dietary fiber easily. </p>
+            <span>National Dietitian Yukina Yanagi</span>
           </div>
           <div class="product-feature-bottom-right">
-            <img
-              src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/pixta_48253132_M_880x.webp?ver=20230127"
-              alt="">
+            <img src="<?php echo get_theme_file_uri(); ?>/img/article/StrawberrySmall.png" alt="">
           </div>
         </div>
 
@@ -538,24 +504,15 @@
 
       <section class="product-gallary">
         <div class="product-sec-title2">
-          <h2>＼ 好評いただいてます ／</h2>
+          <h2>＼ well received ／</h2>
         </div>
         <div class="product-gallary-visual">
-          <img
-            src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/FruOats_HP2022_1_880x.webp?ver=20230127"
-            alt="">
+          <img src="<?php echo get_theme_file_uri(); ?>/img/bgimg/MFDSC_5775_TP_V4.jpg" alt="">
         </div>
-        <h2>多数のメディアに掲載！</h2>
+        <h2>Published in many media!</h2>
         <p>
-          2021年9月に発売を開始したフルオーツはメディアにも注目いただき、「an an」や「CREA」、「mina」など、多数のメディアで紹介されています。</p>
-
-        <img
-          src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/FruOats_HP2022090701_880x.webp?ver=20230127"
-          alt="">
-        <h2>Instagramでも話題に</h2>
-        <p>
-          Instagramの投稿、ストーリーズで、フルオーツを食べた感想やアレンジなど、たくさん投稿をいただいています。</p>
-
+          Full Oats, which was launched in September 2021, has also attracted attention from the media and has been
+          introduced in many media such as “an an”, “CREA”, and “mina”. </p>
       </section>
 
     </div>

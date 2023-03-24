@@ -2,29 +2,23 @@
   <div class="foot-top">
     <ul>
       <li><a href="<?php bloginfo('url');?>/faq">FAQ</a></li>
-      <li><a href="<?php bloginfo('url');?>/contact">お問い合わせ</a></li>
-      <li><a href="<?php bloginfo('url');?>/rules">利用規約</a></li>
-      <li><a href="<?php bloginfo('url');?>/privacy-policy">プライバシーポリシー</a></li>
-      <li><a href="<?php bloginfo('url');?>/law">特定商取引法に基づく表記</a></li>
+      <li><a href="<?php bloginfo('url');?>/contact">inquiry</a></li>
+      <li><a href="<?php bloginfo('url');?>/rules">terms of service</a></li>
+      <li><a href="<?php bloginfo('url');?>/privacy-policy">privacy policy</a></li>
+      <li><a href="<?php bloginfo('url');?>/law">Notation</a></li>
     </ul>
   </div>
 
   <div class="foot-bottom ">
     <ul class="foot-left">
-      <li><a href="#"><img
-            src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.shared__logo_wh.svg"
-            alt=""></a></li>
-      <li>©︎2022 FruOats</li>
+      <li><a href="#"><img src="<?php echo get_theme_file_uri(); ?>/img/logo/FruEats-Logo1.svg" alt=""></a></li>
+      <li>©︎2022 FruEats</li>
     </ul>
 
     <ul class="foot-right">
       <li class="oficial"><a href="#">Official Account</a></li>
-      <li><a href="#"><img
-            src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.shared__icon-twitter_wh.svg"
-            alt=""></a></li>
-      <li><a href="#"><img
-            src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.shared__icon-instagram_wh.svg"
-            alt=""></a></li>
+      <li><a href="#"><img src="<?php echo get_theme_file_uri(); ?>/img/icons/Twitter.svg" alt=""></a></li>
+      <li><a href="#"><img src="<?php echo get_theme_file_uri(); ?>/img/icons/Instagram-white.svg" alt=""></a></li>
 
     </ul>
   </div>

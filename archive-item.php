@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div id="product-list">
+<div id="product-list" class=" fadeInTrigger">
 
   <h1>PRODUCTS</h1>
 
@@ -29,8 +29,8 @@
           <img src="<?php the_field('item画像1'); ?>" alt="">
           <h3 class="product-item-name"><?php the_title(); ?></h3>
           <div class="product-all-price">
-            <p>¥<?php the_field('値段'); ?></p>
-            <span>税込</span>
+            <p>$<?php the_field('値段'); ?></p>
+            <span>Tax included</span>
         </a>
     </div>
     </article>

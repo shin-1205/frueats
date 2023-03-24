@@ -3,7 +3,7 @@
 <div class="contact-wrap">
 
   <div class="contact-main">
-    <h1>お問い合せ内容の確認</h1>
+    <h1>Confirmation of inquiry contents</h1>
 
 
     <?php if(have_posts()): while(have_posts()): the_post();?>

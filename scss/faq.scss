@@ -35,3 +35,26 @@
     }
   }
 }
+
+@media screen and(max-width: 600px){
+  .faq-wrap{
+    padding-top: 120px;
+
+    .faq-main{
+      margin: 0 12px;
+
+      h1{
+        padding: 70px 0 40px;
+        font-size: 18px;
+      }
+
+      .faq-accordion .accordion .menu{
+        font-size: 14px;
+      }
+    }
+  }
+
+  .top-btn{
+    margin: 35px auto 70px auto;
+  }
+}

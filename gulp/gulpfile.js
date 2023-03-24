@@ -1,8 +1,8 @@
 
 // folder
 const dir = {
-    src: ".",
-    dest: ".",
+    src: "./..",
+    dest: "./..",
 };
 
 // package

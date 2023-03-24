@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
   <link href="https://fonts.cdnfonts.com/css/futura-pt" rel="stylesheet">
 
-  <title>フルオーツ　デモ</title>
+  <title>FruEats</title>
   <?php wp_head(); ?>
 </head>
 
@@ -27,27 +27,22 @@
           </a></li>
         <li><a href="<?php bloginfo('url');?>/story">
             <div class="navi-mask">
-              <p data-text="開発ストーリー">開発ストーリー</p>
+              <p data-text="開発ストーリー">Story</p>
             </div>
           </a></li>
         <li><a href="<?php bloginfo('url');?>/item">
             <div class="navi-mask">
-              <p data-text="商品一覧">商品一覧</p>
+              <p data-text="商品一覧">Product</p>
             </div>
           </a></li>
         <li><a href="<?php bloginfo('url');?>/news">
             <div class="navi-mask">
-              <p data-text="ニュース">ニュース</p>
+              <p data-text="ニュース">News</p>
             </div>
           </a></li>
         <li><a href="<?php bloginfo('url');?>/shop">
             <div class="navi-mask">
-              <p data-text="店舗情報">店舗情報</p>
-            </div>
-          </a></li>
-        <li><a href="<?php bloginfo('url');?>">
-            <div class="navi-mask">
-              <p data-text="Magazine">Magazine</p>
+              <p data-text="店舗情報">Shop</p>
             </div>
           </a></li>
       </ul>
@@ -55,16 +50,19 @@
 
     <div id="logo">
       <a href="<?php bloginfo('url');?>">
-        <img src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.shared__logo_wh.svg" alt="">
+        <img src="<?php echo get_theme_file_uri(); ?>/img/logo/FruEats-Logo1.svg" alt="">
       </a>
     </div>
 
     <div class="head-right">
       <ul>
-        <li><a href="<?php bloginfo('url');?>">Login</a></li>
-        <li class="head-mark"><a href="<?php bloginfo('url');?>"><img
-              src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.shared__icon-cart_or.svg"
-              alt="<?php bloginfo('url');?>"></a></li>
+        <li>
+          <div>Login</div>
+        </li>
+        <li class="head-mark">
+          <div><img src="<?php echo get_theme_file_uri(); ?>/img/icons/Shopping Cart.svg"
+              alt="<?php bloginfo('url');?>"></div>
+        </li>
       </ul>
     </div>
 
@@ -75,19 +73,15 @@
       </h3>
 
       <div id="navi">
-        <div class="login-btn"><a href="<?php bloginfo('url');?>" class="login-btn1">ログイン</a></div>
+        <div class="login-btn"><a href="<?php bloginfo('url');?>" class="login-btn1">Login</a></div>
         <ul class="nav-menu">
           <li><a href="<?php bloginfo('url');?>">Top</a></li>
-          <li><a href="<?php bloginfo('url');?>/story">開発ストーリー</a></li>
-          <li><a href="<?php bloginfo('url');?>/item">商品一覧</a></li>
-          <li><a href="<?php bloginfo('url');?>/news">ニュース</a></li>
-          <li><a href="<?php bloginfo('url');?>/shop">店舗情報</a></li>
-          <li><a href="<?php bloginfo('url');?>/">Magazine</a></li>
+          <li><a href="<?php bloginfo('url');?>/story">Story</a></li>
+          <li><a href="<?php bloginfo('url');?>/item">Product</a></li>
+          <li><a href="<?php bloginfo('url');?>/news">News</a></li>
+          <li><a href="<?php bloginfo('url');?>/shop">Shop</a></li>
         </ul>
         <ul class="nav-sns">
-          <li><a href="https://twitter.com/" target="_blank">公式アカウント</a></li>
-          <li><a href="https://www.facebook.com/" target="_blank"></a></li>
-          <li><a href="https://www.instagram.com/" target="_blank"></a></li>
         </ul>
       </div>
 

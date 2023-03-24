@@ -35,3 +35,28 @@
     }
   }
 }
+
+
+@media screen and(max-width: 600px){
+  .other-wrap{
+    padding-top: 150px;
+
+    .other-main{
+      padding: 50px 20px 40px 20px;
+      margin: 0 13px;
+
+      .c-title{
+        padding: 30px 0;
+        font-size: 20px;
+      }
+
+      h2{
+        font-size: 18px;
+      }
+
+      p{
+        font-size: 12px;
+      }
+    }
+  }
+}

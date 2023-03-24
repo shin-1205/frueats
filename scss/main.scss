@@ -111,7 +111,7 @@
 .about{
   height: 800px;
   margin: 0 30px;
-  background-image: url("https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__about.webp");
+  background-image: url("img/bgimg/elly21515B1850_TP_V.jpg");
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -165,7 +165,7 @@
 .para-img{
   width: 100%;
   height: 100%;
-  background-image: url("https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__eyecatch.webp");
+  background-image: url("img/bgimg/ellycollection054_TP_V.jpg");
   background-position: center center;
   background-size: cover;
 }
@@ -196,17 +196,6 @@
   }
 }
 
-// . {
-//   display: block;
-//   padding-right: 0.5em;
-//   color: #fff;
-//   font-size: 70px;
-//   font-weight: 600;
-//   letter-spacing: 0.1em;
-//   text-align: center;
-
-//   white-space: nowrap;
-// }
 
 .sec-logo-wrap{
   overflow: hidden;
@@ -233,6 +222,11 @@
     article{
       max-width: 376px;
       height: 569px;
+      border-radius: 5px;
+
+      img{
+        border-radius: 5px 5px 0 0;
+      }
 
 
       span{
@@ -246,6 +240,7 @@
       .article-box1{
         height: 296px;
         background-color: white;
+        border-radius: 0 0 5px 5px;
         text-align: center;
       }
 
@@ -275,7 +270,7 @@
   height: 754px;
   padding-top: 50px;
   margin-top: 50px;
-  background-image: url("https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__story-eyecatch-bg.webp");
+  background-image: url("img/bgimg/prettyv61745_TP_V.jpg");
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -407,6 +402,13 @@
     display: flex;
     justify-content: center;
     margin-top: 50px;
+
+    .product-left{
+      img{
+        width: 380px;
+        border-radius: 5px;
+      }
+    }
   }
 
   .product-right{
@@ -562,8 +564,9 @@
 /* news */
 
 #news{
+  max-width: 1200px;
   padding-bottom: 150px;
-  margin: 0 35px;
+  margin: 0 auto;
 
   h3{
     padding-bottom: 50px;
@@ -625,8 +628,9 @@ dt{
     .shop-left{
       width: 80%;
       height: 700px;
-      background-image: url("https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__shop-eyecatch.webp");
+      background-image: url("img/bgimg/GINZAIMGL2088_TP_V.jpg");
       background-position: center;
+      border-radius: 0 5px 5px 0;
     }
 
     .shop-right{

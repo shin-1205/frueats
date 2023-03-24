@@ -5,58 +5,67 @@
   <div class="other-main">
 
     <div class="c-title">
-      <h1>特定商取引法に基づく表記</h1>
+      <h1>Notation based on the Act on Specified Commercial Transactions</h1>
     </div>
 
-    <h2>販売事業者</h2>
+    <h2>Seller</h2>
 
-    <p>株式会社フルオーツ</p>
+    <p>FruEats Inc.</p>
 
-    <h2>所在地</h2>
-    <p>東京都江東区清澄二丁目9番14号</p>
+    <h2>Location</h2>
+    <p>2-9-14 Kiyosumi, Koto-ku, Tokyo</p>
 
 
-    <h2>事業者の連絡先</h2>
-    <p>メール:support@fruoats.jp<br>
+    <h2>Business Contact Information</h2>
+    <p>Email: support@fruits.jp<br>
       <br>
-      電話での対応をご希望の場合は、お名前、電話番号及びお問い合わせ内容を明記のうえ、上記連絡先にメールにてご連絡ください。ご連絡いただき次第、当社担当者が2営業日以内にお問い合わせ用の電話番号を遅滞なくお知らせいたします。
+      If you would like us to contact you by phone, please send an e-mail to the above contact address, clearly stating
+      your name, phone number, and the content of your inquiry. Once you contact us, our representative will promptly
+      inform you of the telephone number for inquiries within 2 business days.
     </p>
 
 
-    <h2>業務責任者</h2>
-    <p>代表取締役 辻井 良太<br>
-      商品の販売価格:商品ごとに販売ページに掲載いたします。</p>
+    <h2>Business manager</h2>
+    <p>Representative Director Ryota Tsujiyama<br>
+      Product sales price: We will post it on the sales page for each product. </p>
 
 
-    <h2>商品の販売価格以外に必要な費用</h2>
-    <p>・送料:商品ごとに販売ページに掲載いたします。<br>
+    <h2>Necessary expenses other than the selling price of the product</h2>
+    <p> ・Shipping cost: We will post it on the sales page for each product. <br>
       <br>
-      ・消費税:販売価格の8%
+      ・Consumption tax: 8% of the selling price
     </p>
 
 
-    <h2>支払方法と支払時期</h2>
+    <h2>Payment method and timing</h2>
     <p>
-      ・クレジットカード払い:商品ご注文確定時<br>
+      ・Credit card payment: When the product order is confirmed<br>
       <br>
-      ・Amazon Pay:商品ご注文確定時
+      ・Amazon Pay: When the product order is confirmed
     </p>
 
 
-    <h2>商品の引渡時期</h2>
-    <p>商品ごとに商品販売ページにおいてご案内いたします。</p>
+    <h2>Product delivery time</h2>
+    <p>We will inform you on the product sales page for each product. </p>
 
 
-    <h2>商品の返品・交換・キャンセル</h2>
-    <p>購入された商品の種類又は品質について不備(契約不適合)がある場合を除き、返品・交換・キャンセルをお受けすることはできません。</p>
+    <h2>Return/exchange/cancellation of products</h2>
+    <p>We cannot accept returns, exchanges, or cancellations unless there is a defect in the type or quality of the
+      purchased product (contract nonconformity). </p>
 
 
-    <h2>商品の不備(契約内容不適合責任)に関する特約</h2>
+    <h2> Special agreement on defective products (liability for non-compliance with contract content)</h2>
     <p>
-      購入された商品の種類又は品質について不備(契約不適合)がある場合、商品到着日から5日以内に当社お問い合わせ先(support@fruoats.jp)にご連絡ください。当社において当該不備が確認された場合には、商品の交換、代替商品の送付又は返金を行わせていただきます。この場合、商品の送料その他手数料については当社が負担いたします。<br>
+      If there is a defect in the type or quality of the purchased product (non-conformance with the contract), please
+      contact our contact point (support@frueats.jp) within 5 days from the date of arrival of the product. If the
+      defect is confirmed by us, we will exchange the product, send a replacement product, or refund. In this case, we
+      will bear the shipping and other handling charges for the product. <br>
       <br>
       <br>
-      なお、お客様の都合による商品の受領の遅延、配送方法の変更(配送会社への再配達依頼、宅配ボックスへの配達を含みますが、これに限られません)その他お客様の責めに帰すべき事由に起因する商品の品質の劣化については、当社は責任を負わないものとします。
+      In addition, delay in receiving the product due to the customer's circumstances, change of delivery method
+      (including but not limited to requesting redelivery to the delivery company, delivery to the delivery box), and
+      other reasons attributable to the customer We are not responsible for any deterioration in product quality caused
+      by
     </p>
 
   </div>
@@ -64,6 +73,6 @@
 </div>
 
 
-<a href="<?php bloginfo('url');?>" class="top-btn">TOPページへ</a>
+<a href="<?php bloginfo('url');?>" class="top-btn">TOP</a>
 
 <?php get_footer(); ?>

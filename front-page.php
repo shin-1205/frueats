@@ -8,10 +8,9 @@
   <section class="hero-area">
 
     <div class="hero-left">
-      <img src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__message.svg" alt="PC"
-        class="item2 pc-img">
-      <img src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__message_sp.svg"
-        alt="SP" class="item2 sp-img">
+      <img src="<?php echo get_theme_file_uri(); ?>/img/logo/FruEats-text-beauty.svg" alt="PC" class="item2 pc-img">
+      <img src="<?php echo get_theme_file_uri(); ?>/img/logo/Beauty come’s from nice snacks..svg" alt="SP"
+        class="item2 sp-img">
       <span class="item3">Vegan Friendly</span>
     </div>
 
@@ -20,68 +19,40 @@
 
       <div class="xslider1">
 
-        <div><img
-            src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__slide_1.webp?ver=20230127"
-            alt=""></div>
-        <div><img
-            src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__slide_2.webp?ver=20230127"
-            alt=""></div>
-        <div><img
-            src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__slide_3.webp?ver=20230127"
-            alt=""></div>
-        <div><img
-            src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__slide_4.webp?ver=20230127"
-            alt=""></div>
-        <div><img
-            src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__slide_5.webp?ver=20230127"
-            alt=""></div>
-        <div><img
-            src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__slide_3.webp?ver=20230127"
-            alt=""></div>
+        <div><img src="<?php echo get_theme_file_uri(); ?>/img/slider/Strawberry.jpg" alt=""></div>
+        <div><img src="<?php echo get_theme_file_uri(); ?>/img/slider/Macaron.jpg" alt=""></div>
+        <div><img src="<?php echo get_theme_file_uri(); ?>/img/slider/Cocolate.jpg" alt=""></div>
+        <div><img src="<?php echo get_theme_file_uri(); ?>/img/slider/Cookie.jpg" alt=""></div>
+
 
       </div>
 
       <div class="xslider2">
 
 
-        <div><img
-            src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__slide_1.webp?ver=20230127"
-            alt=""></div>
-        <div><img
-            src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__slide_2.webp?ver=20230127"
-            alt=""></div>
-        <div><img
-            src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__slide_3.webp?ver=20230127"
-            alt=""></div>
-        <div><img
-            src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__slide_4.webp?ver=20230127"
-            alt=""></div>
-        <div><img
-            src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__slide_5.webp?ver=20230127"
-            alt=""></div>
-        <div><img
-            src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__slide_3.webp?ver=20230127"
-            alt=""></div>
+        <div><img src="<?php echo get_theme_file_uri(); ?>/img/slider/Strawberry.jpg" alt=""></div>
+        <div><img src="<?php echo get_theme_file_uri(); ?>/img/slider/Macaron.jpg" alt=""></div>
+        <div><img src="<?php echo get_theme_file_uri(); ?>/img/slider/Cocolate.jpg" alt=""></div>
+        <div><img src="<?php echo get_theme_file_uri(); ?>/img/slider/Cookie.jpg" alt=""></div>
 
       </div>
     </div>
 
   </section>
 
-  <div class="hero-center">
+  <div class="hero-center fadeInTrigger">
     <div class="center-img item">
-      <img src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.shared__logo_wh.svg" alt="">
-      <img src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__tagline.svg" alt="">
+      <img src="<?php echo get_theme_file_uri(); ?>/img/logo/FruEats-Logo1.svg" alt="">
+      <img src="<?php echo get_theme_file_uri(); ?>/img/logo/Frueats-text 1.svg" alt="">
     </div>
   </div>
 
   <div class="right-circle">
-    <img src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__scroll.svg" alt="">
+    <img src="<?php echo get_theme_file_uri(); ?>/img/logo/FruEatsCircle.svg" alt="">
   </div>
 
   <div class="p-index-float popupTop"><a href="<?php bloginfo('url');?>/product">
-      <img src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/banner_1_400x.webp?ver=20230127"
-        alt=""></a>
+      <img src="<?php echo get_theme_file_uri(); ?>/img/logo/FruEatsFloat.svg" alt=""></a>
   </div>
 
 
@@ -91,25 +62,24 @@
     <h3>About FruOats</h3>
 
     <div class="about-left js-parallax">
-      <h2>我慢しなくていい<br>
-        キレイのためのおやつ</h2>
+      <h2>don't be patient,<br>
+        it's snacks for beauty</h2>
 
-      <p>健康や美容への意識が高まるなか、<br>
-        なるべくヘルシーなおやつを選んだり、<br>
-        おやつを我慢する人が増えています。<br>
+      <p>
+        As awareness of health and beauty increases, <br>
+        Choose healthy snacks, <br>
+        More and more people are holding back on snacks. <br>
         <br>
-        私たちは、どなたでもおやつ時間を<br>
-        罪悪感なく楽しく過ごしていただけるよう、<br>
-        植物由来のシンプルな素材のみを厳選して<br>
-        FruOats（フルオーツ）を開発しました。<br>
+        We offer snack time for everyone. <br>
+        So that you can have fun without feeling guilty, <br>
+        Carefully selected only simple materials derived from plants <br>
+        We developed FruEats. <br>
         <br>
-        スーパーフードとして注目されているオートミールや<br>
-        チアシードのほか、おからやドライフルーツなどを使った、<br>
-        食物繊維・ビタミン・ミネラルたっぷりの<br>
-        グルテンフリークッキーです。<br>
+        Oatmeal, which is attracting attention as a superfood, <br>
+        In addition to chia seeds, using okara and dried fruits, <br>
+        Rich in dietary fiber, vitamins and minerals <br>
+        It's a gluten free cookie. <br>
         <br>
-        おいしさとキレイを両立させる、<br>
-        嬉しいおやつをどうぞ召し上がれ。
       </p>
     </div>
   </section>
@@ -136,14 +106,15 @@
         <article class="article test1">
           <span class="article-span">1</span>
 
-          <img
-            src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__feature_1.webp?ver=20230127"
-            alt="">
-          <div class="article-box1">
-            <h2>植物由来の素材で<br>
-              からだの中からキレイに</h2>
+          <img src="<?php echo get_theme_file_uri(); ?>/img/article/StrawberrySmall.png" alt="">
+          <div class=" article-box1">
+            <h2>with plant-derived materials <br>
+              Be beautiful from the inside out</h2>
             <p>
-              お菓子の材料によく使われる卵やバター、小麦粉、白砂糖は使用せず、オートミール、おからパウダー、チアシード、アマニ、ドライフルーツ、米油など、原材料は全て植物由来の素材を使用しています。また、人工甘味料や保存料も使用せず、からだにやさしいクッキーに仕上げました。
+              We do not use eggs, butter, flour, or white sugar, which are often used in sweets, and use all
+              plant-derived ingredients such as oatmeal, okara powder, chia seeds, linseed, dried fruits, and rice oil.
+              . In addition, no artificial sweeteners or preservatives are used, making it a cookie that is gentle on
+              the body.
             </p>
           </div>
         </article>
@@ -151,14 +122,14 @@
         <article class="article2 test2">
           <span class="article-span2">2</span>
 
-          <img
-            src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__feature_2.webp?ver=20230127"
-            alt="">
+          <img src="<?php echo get_theme_file_uri(); ?>/img/article/CookieSmall.png" alt="">
           <div class="article-box1">
-            <h2>3枚で1/2日分の食物繊維<br>
-              糖質も約51%OFF</h2>
+            <h2>Dietary fiber for 1/2 day <br>
+              with 3 pieces</h2>
             <p>
-              通常のクッキーと比べて栄養価は一目瞭然！低糖質で食物繊維がたっぷり。ほとんどの日本人が食物繊維不足で、20代~30代の男女で平均約6g不足しています。フルオーツならたった3枚(45g)で、1日に必要な食物繊維の1/2が摂れます。これは、バナナ約9~10本相当分です。
+              The nutritional value is obvious at a glance compared to normal cookies! Low sugar and full of dietary
+              fiber. Most Japanese people lack dietary fiber, and men and women in their 20s and 30s are short of about
+              6g on average. With just 3 pieces (45g) of fruit oats,
             </p>
           </div>
         </article>
@@ -166,15 +137,13 @@
         <article class="article3 test3">
           <span class="article-span3">3</span>
 
-          <img
-            src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__feature_3.webp?ver=20230127"
-            alt="">
+          <img src="<?php echo get_theme_file_uri(); ?>/img/article/ChocolateCmall.png" alt="">
           <div class="article-box1">
-            <h2>現役パティシエ監修により<br>
-              満足度95%※の美味しさを実現！</h2>
+            <h2>Under the supervision of an active patissier </h2>
             <p>
-              美味しく食べていただくために、「クープ・デュ・モンド・ドゥ・ラ・パティスリー」をはじめとする、パティシエの国際大会で優勝経験のある中山和大シェフに監修して頂きました。美味しい健康食品を作ることの難しさを痛感しながらも、栄養素や素材などに一切妥協せず、美味しく作り上げるために幾度の試行錯誤を重ねました。
-              （※2021年9月調査 モニター41人）</p>
+              In order to make sure that you can eat deliciously, we asked Chef Kazuhiro Nakayama, who has won
+              international pastry competitions such as "Coupe du Monde de la Patisserie", to supervise. While keenly
+              aware of the difficulty of making delicious health food,</p>
           </div>
         </article>
       </div>
@@ -191,14 +160,14 @@
 
     <div class="story-box">
       <div class="story-left storyMove1">
-        <h2>おいしさとキレイの<br>
-          両立を目指して</h2>
-        <p>「おやつを我慢したくない」をきっかけにスタートしたFruOats(フルオーツ)の開発。ヘルシーと美味しさを両立させるために、通常使用される素材を使わずに、何十回もの試行錯誤を重ねました。</p>
-        <a href="<?php bloginfo('url');?>/story">誕生ストーリーをみる</a>
+        <h2>delicious and beautiful <br>
+          Aiming for compatibility</h2>
+        <p>The development of FruEats started with "I don't want to put up with snacks". In order to achieve both health
+          and taste, we went through dozens of trials and errors without using the usual ingredients.</p>
+        <a href="<?php bloginfo('url');?>/story">See the story</a>
       </div>
 
-      <img src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/story-main2.webp?ver=20230127" alt=""
-        class="story-right storyMove2">
+      <img src="<?php echo get_theme_file_uri(); ?>/img/article/Cookie2.jpg" alt="" class="story-right storyMove2">
     </div>
 
     <div class="story-wrapper">
@@ -219,29 +188,25 @@
       </div>
       <div class="product-box-top">
         <div class="product-left ">
-          <img
-            src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__product-deco_2_600x.webp"
-            alt="" class="productLeft1 productimg1">
-          <img
-            src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__product-deco_1_600x.webp"
-            alt="" class="productLeft2 productimg2">
-          <img
-            src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.index__product_600x.webp?ver=20230127"
-            alt="" class="productLeft3 productimg3">
+          <img src="<?php echo get_theme_file_uri(); ?>/img/slider/Cocolate.jpg" alt=""
+            class="productLeft1 productimg1">
+          <img src="<?php echo get_theme_file_uri(); ?>/img/slider/Strawberry.jpg" alt=""
+            class="productLeft2 productimg2">
+          <img src="<?php echo get_theme_file_uri(); ?>/img/slider/Macaron.jpg" alt="" class="productLeft3 productimg3">
         </div>
 
         <div class="product-right productMove1">
-          <p class="product-text-top">オートミール × おからの<br>
-            グルテンフリークッキー </>
+          <p class="product-text-top">Oatmeal & Gulten free snacks
+
           <div class="right-center">
-            <h2>FruOats </h2><span>フルオーツ</span>
+            <h2>FruEats </h2><span></span>
           </div>
           <div class="product-right-price">
-            <h4>¥2,960</h4>
-            <span>税込</span>
-            <span>30枚入り</span>
+            <h4>$29</h4>
+            <span>tax</span>
+            <span>30p/box</span>
           </div>
-          <a href="<?php bloginfo('url');?>/product">商品詳細をみる</a>
+          <a href="<?php bloginfo('url');?>/product">See more</a>
         </div>
       </div>
 
@@ -265,7 +230,7 @@
           <a href="<?php echo get_permalink( $id );?>">
             <img src="<?php the_field('item画像1'); ?>" alt="">
             <p><?php the_title(); ?></p>
-            <h4>¥<?php the_field('値段'); ?><span>税込</span></h4>
+            <h4>¥<?php the_field('値段'); ?><span>Tax included</span></h4>
           </a>
         </article>
         <?php endwhile ?>
@@ -324,18 +289,18 @@
       </div>
       <div class="shop-right">
         <h3>Shop</h3>
-        <h2>FruOats FACTORY</h2>
-        <p>2022年4月25日(月)よりグランドオープン</p>
+        <h2>FruEats FACTORY</h2>
+        <p>Grand opening from Monday, April 25, 2022</p>
         <dl>
-          <dt>営業時間</dt>
-          <dd>月~金（祝日除く） 11:00~17:00</dd>
+          <dt>business hours</dt>
+          <dd>Monday-Friday (excluding holidays) 11:00-17:00</dd>
         </dl>
         <dl>
-          <dt>店舗所在地</dt>
-          <dd>東京都江東区扇橋1丁目12-20</dd>
+          <dt>Store location</dt>
+          <dd>1-12-20 Ogibashi, Koto-ku, Tokyo</dd>
         </dl>
         <div class="shop-btn">
-          <a href="<?php bloginfo('url');?>/shop">もっと詳しく</a>
+          <a href="<?php bloginfo('url');?>/shop">See more</a>
         </div>
       </div>
     </div>
@@ -346,58 +311,51 @@
     <section id="media">
       <h3>Media</h3>
       <ul>
-        <li><a href="#"><img
-              src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.media__anan.webp?ver=20230127"
-              alt=""></a></li>
-        <li><a href="#"><img
-              src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.media__mina.webp?ver=20230127"
-              alt=""></a></li>
-        <li><a href="#"><img
-              src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.media__crea.webp?ver=20230127"
-              alt=""></a></li>
+        <li><a href="#"><img src="<?php echo get_theme_file_uri(); ?>/img/article/Media1.svg" alt=""></a></li>
+        <li><a href="#"><img src="<?php echo get_theme_file_uri(); ?>/img/article/Media2.svg" alt=""></a></li>
+        <li><a href="#"><img src="<?php echo get_theme_file_uri(); ?>/img/article/Media3.svg" alt=""></a></li>
       </ul>
     </section>
 
     <section id="magazine">
-      <h2>MAGAZINE</h2>
+      <h2>Article</h2>
 
       <div class="magazine-box">
         <article>
           <a href="">
-            <img src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/magazine01.webp?ver=20230127"
-              alt="">
+            <img src="<?php echo get_theme_file_uri(); ?>/img/article/Article1.svg" alt="">
             <div class="magazine-bottom">
-              <p>FruOatsのフレーバー別に合うコーヒーって？清澄白河カフェ「Kraft Coffee」のバリスタにインタビューしました！</p>
-              <span>2022.12.02</span>
+              <p>What kind of coffee goes best with each flavor of FruEats? We interviewed the barista of Kiyosumi
+                cafe "Kraft Coffee"!</p>
+              <span>02.12.2022</span>
             </div>
           </a>
         </article>
 
         <article>
           <a href="">
-            <img src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/magazine02.webp?ver=20230127"
-              alt="">
+            <img src="<?php echo get_theme_file_uri(); ?>/img/article/Article2.svg" alt="">
             <div class="magazine-bottom">
-              <p>ヴィーガン食と腸活の関係って？</p>
-              <span>2022.10.13</span>
+              <p>What is the relationship between vegan diet and intestinal activity?</p>
+              <span>10.12.2022</span>
             </div>
           </a>
         </article>
 
         <article>
           <a href="">
-            <img src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/magazine03.webp?ver=20230127"
-              alt="">
+            <img src="<?php echo get_theme_file_uri(); ?>/img/article/Article3.svg" alt="">
             <div class="magazine-bottom">
-              <p>ヴィーガンで栄養不足を防ぐには？不足しがちな栄養素とおすすめの食材</p>
-              <span>2022.09.19</span>
+              <p>How can vegans prevent malnutrition? Nutrients that tend to be deficient and recommended ingredients
+              </p>
+              <span>21.05.2022</span>
             </div>
           </a>
         </article>
       </div>
 
       <div class="megazine-btn">
-        <a href="#">FruOats MAGAZINE</a>
+        <a href="#">FruEats Article</a>
       </div>
     </section>
   </div>

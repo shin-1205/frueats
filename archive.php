@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="news-wrap">
+<div class="news-wrap  fadeInTrigger">
 
 
 

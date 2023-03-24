@@ -24,20 +24,6 @@ header{
       color: #fff;
       font-size: 15px;
       font-weight: 600;
-
-      &:hover{
-        transition: 0.2s;
-        transform: translateY(-18px);
-
-        p::after{
-          content: attr(data-text);
-          display: block;
-          position: absolute;
-          top: 100%;
-          left: 0;
-          transform: translateY(0);
-        }
-      }
     }
 
     .navi-mask p{
@@ -91,7 +77,7 @@ header{
   #logo{
     width: 165px;
     position: relative;
-    right: 175px;
+    right: 93px;
   }
 
   .head-right ul{
@@ -111,6 +97,12 @@ header{
 .head-mark{
   background-color: white;
   border-radius: 50%;
+
+  img{
+    width: 30px;
+    height: 25px;
+    padding-bottom: 3px;
+  }
 }
 
 

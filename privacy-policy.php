@@ -5,79 +5,123 @@
   <div class="other-main">
 
     <div class="c-title">
-      <h1>プライバシーポリシー</h1>
+      <h1>Privacy Policy</h1>
     </div>
 
-    <h2>はじめに</h2>
+    <h2>Introduction</h2>
 
     <p>
-      このプライバシーポリシーは、株式会社フルオーツ(以下「当社」といいます)の商品の販売、当社の運営するウェブサイト、その他当社の提供するサービス(以下総称して「本サービス」といいます)を利用されるお客様から収集した個人情報(個人情報の保護に関する法律(以下「個人情報保護法」といいます)に定義される「個人情報」をいいます)を保護する為の方針を定めています。
+      This privacy policy applies to the sale of products of Fluoats Co., Ltd. (hereinafter referred to as "our
+      company"), the website operated by our company, and other services provided by our company (hereinafter
+      collectively referred to as "this service"). We have established a policy to protect personal information
+      ("personal information" as defined in the Act on the Protection of Personal Information (hereinafter referred to
+      as "Personal Information Protection Act")) collected from our customers.
     </p>
 
-    <h2>1 法令等の遵守について</h2>
+    <h2>1 Compliance with laws and regulations</h2>
 
-    <p>当社は、個人情報保護の実現のため、個人情報保護法、各省庁ガイドラインその他関連する法令等を遵守します。</p>
+    <p>In order to protect personal information, we will comply with the Personal Information Protection Law, government
+      guidelines, and other related laws and regulations. </p>
 
-    <h2>2 個人情報の収集方法とその目的について</h2>
-    <p>(1)当社は、本サービスに関連してお客様の個人情報を収集する場合があります。当社は、個人情報の入手を適法かつ公正な手段によって行うものとし、お客様の意思に反する不正な入手を行わないものとします。<br>
-      (2)当社は、収集した個人情報を以下の目的の遂行に必要な範囲で使用します。<br>
-      ・本サービスの提供及び管理のため<br>
-      ・本サービスにおけるお客様に対するご請求や決済手続のため<br>
-      ・お客様と当社の取引状況その他お客様の本サービスの利用状況を確認するため<br>
-      ・当社または当社グループ会社（当社の親会社、子会社その他関係会社を指します）のサービスや商品等に関するご案内その他お知らせ（ダイレクトメールやメールマガジンの配信等を含みます）を行うため<br>
-      ・当社または当社グループ会社のサービスや商品の品質向上及び新規開発のため<br>
-      ・お客様からの問い合わせ対応のため<br>
-      ・アンケートの実施のため<br>
-      ・お客様に合わせてカスタマイズしたサービス、商品その他コンテンツを提供するため<br>
-      ・マーケティング、キャンペーンその他宣伝広告(ターゲティング広告等の配信を含みます)を行うため<br>
-      ・個人又は特定の利用者を識別できない形式に加工した、本サービスの利用状況に関する統計データを作成するため<br>
-      ・その他前各項目に付帯・関連する事項のため<br>
-      (3)当社は、本サービスにおいて収集したお客様の個人情報を、当社が取得・保有するその他の情報で補足する場合があります。<br>
-      (4)当社が個人情報を第三者から間接的に取得する場合は、当該第三者が本人から適正に取得したものであるかどうかを確認した上で、上記(2)記載の目的の範囲内で利用します。</p>
+    <h2>2 Methods and Purposes of Collecting Personal Information</h2>
+    <p>(1) We may collect your personal information in connection with this service. The Company shall acquire personal
+      information by lawful and fair means, and shall not illegally acquire personal information against the customer's
+      will. <br>
+      (2) The Company will use the collected personal information to the extent necessary to accomplish the following
+      purposes. <br>
+      ・For the provision and management of this service<br>
+      ・For billing and settlement procedures for customers in this service<br>
+      ・To check the transaction status between the customer and our company and other usage status of the customer<br>
+      ・To provide guidance and other notices (including distribution of direct mail and e-mail magazines) regarding
+      services and products of the Company or its group companies (referring to the Company's parent company,
+      subsidiaries and other affiliated companies)<br>
+      ・For quality improvement and new development of services and products of our company or our group companies<br>
+      ・To respond to customer inquiries<br>
+      ・For conducting questionnaires<br>
+      ・To provide customized services, products, and other content for customers<br>
+      ・For marketing, campaigns and other promotional advertisements (including delivery of targeting advertisements,
+      etc.)<br>
+      ・To create statistical data on the usage status of the Service, processed into a format that cannot identify
+      individuals or specific users<br>
+      ・Other items incidental or related to the previous items<br>
+      (3) The Company may supplement the customer's personal information collected in this service with other
+      information acquired and held by the Company. <br>
+      (4) When the Company indirectly acquires personal information from a third party, after confirming whether the
+      third party has acquired it properly from the person, the purpose described in (2) above Use within range. </p>
 
-    <h2>3 個人情報の第三者への提供等について</h2>
-    <p>当社は、お客様の事前の同意を得ることなく、お客様の個人情報を第三者に提供することはいたしません。ただし、以下の事例に該当する場合はその限りではありません。<br>
-      ・本サービスの決済手続業務の委託に伴い、当該業務の委託先である決済会社に対してお客様の個人情報を開示する場合<br>
-      ・上記に掲げるほか、個人情報保護法その他法令等において、本人の事前の同意を得ずに第三者へ個人情報を提供することが認められ又はその義務を負う場合</p>
+    <h2>3 Provision of Personal Information to Third Parties</h2>
+    <p>We will not provide your personal information to a third party without your prior consent. However, this does not
+      apply to the following cases. <br>
+      ・When disclosing the customer's personal information to the settlement company that has outsourced the service in
+      connection with the consignment of the settlement procedure work for this service<br>
+      ・In addition to the above, when it is permitted or obliged to provide personal information to a third party
+      without the prior consent of the person under the Personal Information Protection Act or other laws and
+      regulations</p>
 
-    <h2>4 技術的情報の収集等について</h2>
+    <h2>4 Collection of technical information</h2>
     <p>
-      当社は、本サービスにおいて、ログファイルの収集、クッキーの送信(広告の効果測定を目的とした第三者サーバーからのクッキー送信を含む)、ウェブビーコンの設置などによりお客様のIPアドレス、アクセス回数、ご利用ブラウザ、OS、利用端末ID、wi-fi接続に関する情報その他利用端末などの情報を収集することがあります。クッキーについては、お客様がご利用のブラウザの設定等により受入れを拒否することができますが、その場合、本サービスの一部がご利用いただけなくなる可能性があります。これらの情報は、本サービスの利用分析、ターゲティング広告の配信、問題発生時の原因究明を目的に収集しておりますが、個人を特定する目的の利用はいたしません。<br>
-      なお、これら情報のうち個人関連情報（個人情報保護法において定義される「個人関連情報」を指します）について、当該情報を個人情報として利用することが想定される第三者に提供を行う場合、当社は、当該第三者に対して、予め利用者等から当該個人関連情報を個人情報として利用することについて同意を得ていることを確認いたします。
+      In this service, we collect log files, send cookies (including sending cookies from third-party servers for the
+      purpose of measuring the effectiveness of advertisements), install web beacons, etc. We may collect your IP
+      address, access frequency, We may collect information about your browser, OS, device ID, Wi-Fi connection, and
+      other information about your device. You can refuse to accept cookies by changing your browser settings, etc., but
+      in that case, you may not be able to use some parts of this service. This information is collected for the purpose
+      of analyzing the use of this service, delivering targeted advertisements, and investigating the cause of problems,
+      but it is not used for the purpose of identifying individuals. <br>
+      In addition, when providing personal related information (referring to "personal related information" defined in
+      the Personal Information Protection Law) among these information to a third party who is expected to use the
+      information as personal information , the Company will confirm with the third party that it has obtained prior
+      consent from the user, etc. to use the relevant personal information as personal information.
     </p>
 
-    <h2>5 個人情報に関する本人からの開示、訂正、利用停止等の方法について</h2>
+    <h2>5 Methods for Disclosure, Correction, and Suspension of Use of Personal Information from the Individual</h2>
     <p>
-      お客様は、個人情報保護法に従い、ご本人の個人情報の開示、訂正、追加、利用停止及び削除（以下総称して「開示等」といいます）を請求することができます。開示等のご請求や、その他ご意見、ご質問、苦情その他個人情報の取扱いに関するお問い合わせは、以下の連絡先にご連絡いただくようお願いいたします（なお、開示等のご請求につきましては、1件につき手数料1000円を頂戴することがあります）。当社は、お客様より開示等のご請求をいただいた場合、速やかに調査を行ったうえで対応をいたします。ただし、開示等のご請求をされた方がお客様ご本人であることが確認できない場合、又は法令等に基づき当社が当該対応の義務を負わない場合には、ご請求に応じることができませんので、ご留意ください。<br>
+      Customers may request disclosure, correction, addition, suspension of use and deletion of their personal
+      information (hereinafter collectively referred to as "disclosure, etc.") in accordance with the Personal
+      Information Protection Act. For requests for disclosure, etc., other opinions, questions, complaints, and other
+      inquiries regarding the handling of personal information, please contact the following contact information. A fee
+      of 1,000 yen may be charged for each). When we receive a request for disclosure, etc. from a customer, we will
+      respond promptly after conducting an investigation. However, if it is not possible to confirm that the person
+      making the request for Disclosure, etc. is the customer himself/herself, or if the Company is not obligated to
+      respond in accordance with laws and regulations, etc., we will not be able to respond to the request. Please note.
       <br>
-      【連絡先】<br>
-      support@fruoats.jp<br>
-      〒135-0024東京都江東区清澄2-9-14-101<br>
-      株式会社フルオーツ　代表取締役　辻井良太
-    </p>
-
-    <h2>6 個人情報保護のための安全管理措置について</h2>
-    <p>
-      当社は、個人情報へのアクセス権限者を業務上必要な者に限定する等、収集した個人情報保護の不正アクセス・紛失・破損・改ざん・漏洩などを防止するために合理的な予防措置を講じ、個人情報の適正な管理及び継続的な改善を実施します。また、社内における個人情報保護に関する教育、意識の向上、啓発等に努めます。
-    </p>
-
-    <h2>7 外部サービス等におけるの個人情報の取扱いについて</h2>
-    <p>このプライバシーポリシーの適用範囲は、本サービスのみとなります。外部のウェブサイトやサービス等での個人情報の取扱いについては、当該外部のウェブサイトやサービス等に適用されるプライバシーポリシーをご参照ください。</p>
-
-    <h2>8 プライバシーポリシーの変更について</h2>
-    <p>
-      当社は、本サービス及びお客様の個人情報の管理・運用状況を定期的に見直し、継続的な改善に努めるものとし、それに伴い、プライバシーポリシーを変更する場合があります。当社がプライバシーポリシーを変更する場合、1プライバシーポリシーを変更する旨、2変更の効力発生日及び変更内容を、当社のウェブサイト上への掲載又はその他の方法により告知します。ただし、個人情報保護法その他法令等により、変更に必要な手続が定められている場合には、当該手続に基づき変更を行うものとします。<br>
       <br>
-      2022年12月31日制定
+      [Contact]<br>
+      support@fruEats.jp<br>
+      2-9-14-101 Kiyosumi, Koto-ku, Tokyo 135-0024<br>
+      Full Oats Co., Ltd. Representative Director Ryota Tsujiyama
     </p>
 
+    <h2>6 Security control measures for personal information protection</h2>
+    <p>
+      The Company will take reasonable precautions to prevent unauthorized access, loss, damage, falsification, leakage,
+      etc. of the collected personal information, such as limiting the access authority to personal information to those
+      who are necessary for business. , We will implement appropriate management and continuous improvement of personal
+      information. In addition, we will strive to educate, raise awareness, and raise awareness regarding personal
+      information protection within the company.
+    </p>
+
+    <h2>7 Handling of Personal Information in External Services</h2>
+    <p>This privacy policy applies only to this service. For the handling of personal information on external websites
+      and services, etc., please refer to the privacy policy applicable to such external websites and services. </p>
+
+    <h2>8 Changes to Privacy Policy</h2>
+    <p>
+      The Company shall periodically review the status of management and operation of the Service and the personal
+      information of customers, and endeavor to make continuous improvements, and may change the Privacy Policy
+      accordingly. When we change our privacy policy, we will notify (1) that we will change the privacy policy, (2) the
+      effective date of the change and the content of the change by posting it on our website or by other means.
+      However, if the Personal Information Protection Law and other laws and regulations stipulate the necessary
+      procedures for changes, the changes shall be made based on those procedures. <br>
+      <br>
+      Enacted December 31, 2022
+    </p>
 
   </div>
 
 </div>
 
 
-<a href="<?php bloginfo('url');?>" class="top-btn">TOPページへ</a>
+<a href="<?php bloginfo('url');?>" class="top-btn">TOP</a>
 
 
 

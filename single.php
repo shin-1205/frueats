@@ -27,19 +27,15 @@
       <div class="single-sns">
         <h4>SHARE</h4>
         <ul>
-          <li><img
-              src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.shared__icon-twitter_or.svg"
-              alt=""></li>
-          <li><img
-              src="https://d2w53g1q050m78.cloudfront.net/shopfruoatsjp/uploads/assets/static.shared__icon-facebook_or.svg"
-              alt=""></li>
+          <li><img src="<?php echo get_theme_file_uri(); ?>/img/icons/Twitter.svg" alt=""></li>
+          <li><img src="<?php echo get_theme_file_uri(); ?>/img/icons/Instagram.svg" alt=""></li>
         </ul>
 
       </div>
     </div>
   </div>
 
-  <a href="<?php echo home_url('/'); ?>news/" class="top-btn">NEWS一覧ページへ</a>
+  <a href="<?php echo home_url('/'); ?>news/" class="top-btn">NEWS Pages</a>
 
 </div>
 

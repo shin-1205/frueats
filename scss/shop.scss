@@ -99,3 +99,60 @@
     }
   }
 }
+
+@media screen and(max-width: 600px){
+  .shop-wrap{
+    padding-top: 120px;
+
+    h1{
+      font-size: 30px;
+    }
+
+    .shop-content-main{
+      h2{
+        font-size: 18px;
+      }
+
+      img{
+        &:first-child{
+          border-radius: 5px 5px 0 0;
+        }
+      }
+
+      h3{
+        margin: 0 20px;
+        font-size: 13px;
+      }
+
+      dl{
+        margin: 0 20px;
+
+        dt{
+          font-size: 12px;
+        }
+
+        dd{
+          font-size: 12px;
+        }
+      }
+
+      .shop-sns{
+        margin-top: 50px;
+
+
+        h4{
+          font-size: 14px;
+        }
+
+        img{
+          width: 44px;
+          padding-bottom: 50px;
+        }
+      }
+    }
+
+    .top-btn{
+      margin: 35px auto 80px auto;
+    }
+  }
+}

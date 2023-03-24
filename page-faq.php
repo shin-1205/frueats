@@ -181,6 +181,6 @@
 
 </div>
 
-<a href="<?php bloginfo('url');?>" class="top-btn">TOPページへ</a>
+<a href="<?php bloginfo('url');?>" class="top-btn">TOP</a>
 
 <?php get_footer(); ?>
