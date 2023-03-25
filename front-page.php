@@ -230,7 +230,7 @@
           <a href="<?php echo get_permalink( $id );?>">
             <img src="<?php the_field('item画像1'); ?>" alt="">
             <p><?php the_title(); ?></p>
-            <h4>¥<?php the_field('値段'); ?><span>Tax included</span></h4>
+            <h4>$<?php the_field('値段'); ?><span>Tax included</span></h4>
           </a>
         </article>
         <?php endwhile ?>

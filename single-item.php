@@ -476,7 +476,7 @@
               <dt>2021</dt>
               <dd>World Trophy of Pastry Ice Cream Chocolate 2021 Team JAPAN Winner</dd>
             </dl>
-            <dl>
+            <dl class="storyLast">
               <dt>Qualifications</dt>
               <dd>
                 Japan Sommelier Association (J.S.A.) sommelier, SAKE DIPLOMA (sake sommelier) acquired</dd>
